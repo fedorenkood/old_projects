@@ -1,0 +1,31 @@
+/**/
+/* level 1 */
+/**/
+.sky-mega-menu {
+	background: #fff;
+}
+.sky-mega-menu li {
+	border-color: #e5e5e5;
+}
+.sky-mega-menu li > div {
+	background: #fff;	
+}
+
+.search{
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    width: 29px;
+    height: 29px;
+    padding-left: 3px;
+    border-left: 1px solid #e5e5e5 !important;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center;
+    color: #ccc;
+    display: inline-block;
+}
+
+.btn{position: absolute;
+    top: 8px;
+    right: 7.8px;}

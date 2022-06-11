@@ -1,0 +1,52 @@
+input, select, button, textarea, p, span {    
+    font-size: 15px;
+    font-family: sans-serif, "Open Sans";
+}
+
+input, select, button, textarea {    
+	border: 1px solid black;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 0 5px;
+    margin: 5px 0;
+    box-shadow: 0px 0px 3px 0px #dddddd;
+    outline: none;
+}
+
+select {
+	width: 262px;
+	background-color: white;
+}
+
+textarea {
+	padding-top: 5px;
+	height: 80px;
+}
+
+button {
+	width: 262px;
+	color: white;
+	background-color: black;
+}
+
+button:hover {
+	color: black;
+	background-color: white;
+}
+
+.flex-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#form-box {margin-top: 200px;}
+
+#password {margin: 15px 0;}
+
+.error {box-shadow: 0px 0px 3px 0px #ff0000;}
+
+#form-error {color: #ff4d4d;}
+
+#form-success {color: #00cc00;}

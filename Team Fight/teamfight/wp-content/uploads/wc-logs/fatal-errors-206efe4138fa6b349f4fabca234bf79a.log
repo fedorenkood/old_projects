@@ -1,0 +1,106 @@
+2017-12-13T13:19:11+00:00 CRITICAL Uncaught Error: Function name must be a string in /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/header.php:24
+Stack trace:
+#0 /home/demopanel/public_html/demo/team_fight/wp-includes/template.php(688): require_once()
+#1 /home/demopanel/public_html/demo/team_fight/wp-includes/template.php(647): load_template('/home/demopanel...', true)
+#2 /home/demopanel/public_html/demo/team_fight/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/home.php(2): get_header()
+#4 /home/demopanel/public_html/demo/team_fight/wp-includes/template-loader.php(74): include('/home/demopanel...')
+#5 /home/demopanel/public_html/demo/team_fight/wp-blog-header.php(19): require_once('/home/demopanel...')
+#6 /home/demopanel/public_html/demo/team_fight/index.php(17): require('/home/demopanel...')
+#7 {main}
+  thrown
+
+2017-12-13T13:21:02+00:00 CRITICAL Uncaught Error: Function name must be a string in /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/header.php:24
+Stack trace:
+#0 /home/demopanel/public_html/demo/team_fight/wp-includes/template.php(688): require_once()
+#1 /home/demopanel/public_html/demo/team_fight/wp-includes/template.php(647): load_template('/home/demopanel...', true)
+#2 /home/demopanel/public_html/demo/team_fight/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/home.php(2): get_header()
+#4 /home/demopanel/public_html/demo/team_fight/wp-includes/template-loader.php(74): include('/home/demopanel...')
+#5 /home/demopanel/public_html/demo/team_fight/wp-blog-header.php(19): require_once('/home/demopanel...')
+#6 /home/demopanel/public_html/demo/team_fight/index.php(17): require('/home/demopanel...')
+#7 {main}
+  thrown
+
+2017-12-13T13:21:30+00:00 CRITICAL Uncaught Error: Function name must be a string in /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/header.php:27
+Stack trace:
+#0 /home/demopanel/public_html/demo/team_fight/wp-includes/template.php(688): require_once()
+#1 /home/demopanel/public_html/demo/team_fight/wp-includes/template.php(647): load_template('/home/demopanel...', true)
+#2 /home/demopanel/public_html/demo/team_fight/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/home.php(2): get_header()
+#4 /home/demopanel/public_html/demo/team_fight/wp-includes/template-loader.php(74): include('/home/demopanel...')
+#5 /home/demopanel/public_html/demo/team_fight/wp-blog-header.php(19): require_once('/home/demopanel...')
+#6 /home/demopanel/public_html/demo/team_fight/index.php(17): require('/home/demopanel...')
+#7 {main}
+  thrown
+
+2017-12-17T18:46:25+00:00 CRITICAL Maximum execution time of 500 seconds exceeded
+
+2017-12-18T16:07:09+00:00 CRITICAL Maximum execution time of 500 seconds exceeded
+
+2017-12-18T16:07:13+00:00 CRITICAL Maximum execution time of 500 seconds exceeded
+
+2017-12-25T12:17:32+00:00 CRITICAL Uncaught Error: Call to undefined function tm_button_color() in /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/libs/site_elements/profile_pop_up.php:91
+Stack trace:
+#0 /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/header.php(104): include()
+#1 /home/demopanel/public_html/demo/team_fight/wp-includes/template.php(688): require_once('/home/demopanel...')
+#2 /home/demopanel/public_html/demo/team_fight/wp-includes/template.php(647): load_template('/home/demopanel...', true)
+#3 /home/demopanel/public_html/demo/team_fight/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/home.php(2): get_header()
+#5 /home/demopanel/public_html/demo/team_fight/wp-includes/template-loader.php(74): include('/home/demopanel...')
+#6 /home/demopanel/public_html/demo/team_fight/wp-blog-header.php(19): require_once('/home/demopanel...')
+#7 /home/demopanel/public_html/demo/team_fight/index.php(17):
+
+2017-12-25T12:21:15+00:00 CRITICAL Uncaught Error: Call to undefined function tm_button_color() in /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/libs/site_elements/profile_pop_up.php:91
+Stack trace:
+#0 /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/header.php(104): include()
+#1 /home/demopanel/public_html/demo/team_fight/wp-includes/template.php(688): require_once('/home/demopanel...')
+#2 /home/demopanel/public_html/demo/team_fight/wp-includes/template.php(647): load_template('/home/demopanel...', true)
+#3 /home/demopanel/public_html/demo/team_fight/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/home.php(2): get_header()
+#5 /home/demopanel/public_html/demo/team_fight/wp-includes/template-loader.php(74): include('/home/demopanel...')
+#6 /home/demopanel/public_html/demo/team_fight/wp-blog-header.php(19): require_once('/home/demopanel...')
+#7 /home/demopanel/public_html/demo/team_fight/index.php(17):
+
+2017-12-25T12:25:29+00:00 CRITICAL Uncaught Error: Call to undefined function tm_button_color() in /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/libs/site_elements/profile_pop_up.php:91
+Stack trace:
+#0 /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/header.php(104): include()
+#1 /home/demopanel/public_html/demo/team_fight/wp-includes/template.php(688): require_once('/home/demopanel...')
+#2 /home/demopanel/public_html/demo/team_fight/wp-includes/template.php(647): load_template('/home/demopanel...', true)
+#3 /home/demopanel/public_html/demo/team_fight/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/home.php(2): get_header()
+#5 /home/demopanel/public_html/demo/team_fight/wp-includes/template-loader.php(74): include('/home/demopanel...')
+#6 /home/demopanel/public_html/demo/team_fight/wp-blog-header.php(19): require_once('/home/demopanel...')
+#7 /home/demopanel/public_html/demo/team_fight/index.php(17):
+
+2017-12-25T12:29:00+00:00 CRITICAL Uncaught Error: Call to undefined function tm_button_color() in /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/libs/site_elements/profile_pop_up.php:91
+Stack trace:
+#0 /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/header.php(104): include()
+#1 /home/demopanel/public_html/demo/team_fight/wp-includes/template.php(688): require_once('/home/demopanel...')
+#2 /home/demopanel/public_html/demo/team_fight/wp-includes/template.php(647): load_template('/home/demopanel...', true)
+#3 /home/demopanel/public_html/demo/team_fight/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/home.php(2): get_header()
+#5 /home/demopanel/public_html/demo/team_fight/wp-includes/template-loader.php(74): include('/home/demopanel...')
+#6 /home/demopanel/public_html/demo/team_fight/wp-blog-header.php(19): require_once('/home/demopanel...')
+#7 /home/demopanel/public_html/demo/team_fight/index.php(17):
+
+2017-12-25T12:29:03+00:00 CRITICAL Uncaught Error: Call to undefined function tm_button_color() in /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/libs/site_elements/profile_pop_up.php:91
+Stack trace:
+#0 /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/header.php(104): include()
+#1 /home/demopanel/public_html/demo/team_fight/wp-includes/template.php(688): require_once('/home/demopanel...')
+#2 /home/demopanel/public_html/demo/team_fight/wp-includes/template.php(647): load_template('/home/demopanel...', true)
+#3 /home/demopanel/public_html/demo/team_fight/wp-includes/general-template.php(45): locate_template(Array, true)
+#4 /home/demopanel/public_html/demo/team_fight/wp-content/themes/team_fight/home.php(2): get_header()
+#5 /home/demopanel/public_html/demo/team_fight/wp-includes/template-loader.php(74): include('/home/demopanel...')
+#6 /home/demopanel/public_html/demo/team_fight/wp-blog-header.php(19): require_once('/home/demopanel...')
+#7 /home/demopanel/public_html/demo/team_fight/index.php(17):
+
+2017-12-25T14:09:48+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/demopanel/public_html/demo/team_fight/wp-content/plugins/paid-member-subscriptions/includes/views/shortcodes/view-shortcode-account-subscription-details.php:10
+Stack trace:
+#0 /home/demopanel/public_html/demo/team_fight/wp-content/plugins/paid-member-subscriptions/includes/class-shortcodes.php(245): include()
+#1 /home/demopanel/public_html/demo/team_fight/wp-includes/shortcodes.php(345): PMS_Shortcodes::member_account(Array, '', 'pms-account')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/demopanel/public_html/demo/team_fight/wp-includes/shortcodes.php(223): preg_replace_callback('/\\[(\\[?)(pms\\-a...', 'do_shortcode_ta...', '[pms-account sh...')
+#4 /home/demopanel/public_html/demo/team_fight/wp-content/plugins/paid-member-subscriptions/includes/class-shortcodes.php(165): do_shortcode('[pms-account sh...')
+#5 /home/demopanel/public_html/demo/team_fight/wp-includes/shortcodes.php(345): PMS_Shortcodes::subscriptions_form(Array, '', 'pms
+

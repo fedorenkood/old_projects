@@ -1,0 +1,1435 @@
+# Translation of Themes - Llorix One Lite in Russian
+# This file is distributed under the same license as the Themes - Llorix One Lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-02-06 20:53:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Llorix One Lite\n"
+
+#. Description of the plugin/theme
+msgid "Llorix One Lite is a free and beautiful one page business WordPress theme, with a flat and clean bootstrap based design and an elegant parallax effect. It provides a simple,minimal and modern look that can be used for any kind of personal businesses or startup mobile app. The landing page has a fullscreen hero image and blue & orange appearance with buttons and icons promoting simplicity and elegance at their best. The theme provides a responsive blog section, is eCommerce ready (WooCommerce store compatible), WPML, bbPress, Photo Gallery Grid,Contact Form 7,Meta Slider,SiteOrigin Page Builder, JetPack compatible  and SEO friendly. You can use it for your business / startup shop, agency, corporate website, or photography portfolio."
+msgstr "Llorix One Lite это бесплатная и красивая одностраничная бизнес тема для WordPress, с плоским и простым дизайном на Bootstrap и элегантным паралакс эфектом. Она простая, минималистическая и с современным дизайном, что дает возможность использовать ее для любого бизнеса или стартапа мобильного приложения. Посадочная страница содержит полноэкранное изображение, также голубое и оранжевое представление кнопок и иконок показывая простоту и элегантность темы в лучшем виде. В теме представлена адаптивная секция блога, подготовлена к eCommerce (поддерживает WooCommerce), WPML, bbPress, Photo Gallery Grid,Contact Form 7,Meta Slider,SiteOrigin Page Builder, JetPack совместима и дружественна с SEO. Вы можете использовать ее для вашего бизнеса / стартапа магазина, агенства, корпоративного веб сайта или портфолио фотографа."
+
+#. Theme Name of the plugin/theme
+msgid "Llorix One Lite"
+msgstr "Llorix One Lite"
+
+#: inc/customizer.php:75
+msgid "Keep the old static frontpage template?"
+msgstr "Используете старый статический шаблон главной страницы?"
+
+#: inc/customizer.php:683
+msgid "Disable the Frontpage Content section?"
+msgstr "Отключить вывод содержимого главной страницы?"
+
+#: inc/customizer.php:669
+msgid "Frontpage content section"
+msgstr "Блок Содержимое главной страницы"
+
+#: inc/customizer.php:153
+msgid "Check out the <a href=\"http://themeisle.com/plugins/llorix-one-plus/\">PRO version</a> for full control over the COLOR SCHEME!"
+msgstr "Попробуйте <a href=\"http://themeisle.com/plugins/llorix-one-plus/\">PRO версию</a> для полного контроля над ЦВЕТОВОЙ СХЕМОЙ!"
+
+#: inc/customizer.php:38
+msgid "Check out the <a href=\"http://themeisle.com/plugins/llorix-one-plus/\">PRO version</a> for full control over the NEW PORTFOLIO SECTION!"
+msgstr "Попробуйте <a href=\"http://themeisle.com/plugins/llorix-one-plus/\">PRO версию</a> для полного контроля над РАЗДЕЛОМ НОВОЕ ПОРТФОЛИО!"
+
+#: inc/customize-pro/class-llorix-one-lite-customize-upsell.php:78
+msgid "Check out the <a href=\"http://themeisle.com/plugins/llorix-one-plus/\">PRO version</a> for full control over the frontpage SECTIONS ORDER!"
+msgstr "Попробуйте <a href=\"http://themeisle.com/plugins/llorix-one-plus/\">PRO версию</a> для полного контроля над порядком разделов на главной странице!"
+
+#. Template Name of the plugin/theme
+msgid "Eventbrite Events"
+msgstr "События Eventbrite"
+
+#: inc/customizer.php:320 inc/customizer.php:450
+msgid "Overlay color and transparency"
+msgstr "Цвет заливки и прозрачность"
+
+#: inc/customizer.php:231
+msgid "Text before the phone number"
+msgstr "Текст перед номером телефона"
+
+#: inc/customizer.php:98
+msgid "Change the template to Full width for all the pages?"
+msgstr "Изменить шаблон на Полноформатный для всех страниц? "
+
+#: header.php:96 inc/customizer.php:227
+msgid "Call us: "
+msgstr "Позвоните нам:"
+
+#: inc/customizer.php:459
+msgid "Logos Bar section"
+msgstr "Блок логотипа"
+
+#: inc/customizer.php:404
+msgid "Big title section background"
+msgstr "Фон блока большого заголовка"
+
+#: inc/customizer.php:336
+msgid "Big title section"
+msgstr "Блок Большого заголовка"
+
+#: inc/customizer.php:329
+msgid "Frontpage sections"
+msgstr "Блок главной страницы"
+
+#: inc/customizer.php:201
+msgid "Header"
+msgstr "Шапка"
+
+#: inc/customizer.php:161
+msgid "Llorix One Lite theme general appearance options"
+msgstr "Главные настройки внешнего вида темы Llorix One Lite"
+
+#: inc/customize-pro/class-llorix-one-lite-customize-upsell.php:87
+msgid "doc"
+msgstr "документацию"
+
+#: inc/customize-pro/class-llorix-one-lite-customize-upsell.php:87
+msgid "Need further informations? Check this"
+msgstr "Необходимо больше информации? Посмотрите тут"
+
+#: inc/customize-pro/class-llorix-one-lite-customize-upsell.php:87
+msgid "To customize the Frontpage sections please create a page and select the template \"Frontpage\" for that page. After that, go to Appearance -> Customize -> Static Front Page and under \"Static Front Page\" select \"A static page\". Finally, for \"Front page\" choose the page you previously created."
+msgstr "Для настройки Главной страницы, пожалуйста, создайте страницу и выберите для нее шаблон \"Главная страница\". После этого перейдите Внешний вид -> Настроить -> Статическая Главная Страница и под  \"Статическая Главная Страница\" выберите \"Статическая страница\". И для завершения, выберите для \"Главная страница\" страницу которую вы только что создали."
+
+#: inc/admin/welcome-screen/sections/github.php:32
+msgid "Get involved at WordPress.org."
+msgstr "Присоединяйтесь на WordPress.org."
+
+#: inc/admin/welcome-screen/sections/github.php:30
+msgid "Are you a polyglot? Want to translate Llorix One Lite into your own language?"
+msgstr "Вы полиглот? Хотите перевести Llorix One Lite на ваш язык?"
+
+#: inc/admin/welcome-screen/sections/github.php:17
+msgid "Found a bug? Want to contribute with a fix or create a new feature?"
+msgstr "Нашли баг? Хотите помочь с исправлением или создать новую функцию?"
+
+#: inc/admin/welcome-screen/sections/github.php:11
+msgid "How can I contribute?"
+msgstr "Как я могу помочь?"
+
+#: inc/customizer.php:756
+msgid " but you can use any plugin you like."
+msgstr "но вы можете использовать любой понравившийся вам плагин."
+
+#: inc/customizer.php:756
+msgid "Create a form, copy the shortcode generated and paste it here. We recommend "
+msgstr "Создайте форму, скопируйте полученный шорткод и вставьте его сюда. Мы рекомендуем"
+
+#: inc/customizer.php:737 inc/customizer.php:768
+msgid " plugin then use it to create a map and paste here the shortcode generated"
+msgstr "плагин, затем используйте его для создания карты и скопируйте сюда полученный шорткод"
+
+#: inc/customizer.php:737 inc/customizer.php:768
+msgid "Intergeo Maps"
+msgstr "Intergeo Maps"
+
+#: inc/customizer.php:737 inc/customizer.php:768
+msgid "To use this section please install "
+msgstr "Для использования этого раздела, пожалуйста, установите"
+
+#: inc/admin/welcome-screen/welcome-screen.php:175
+msgid "Support"
+msgstr "Тех.Поддержка"
+
+#: inc/admin/welcome-screen/sections/support.php:22
+msgid "Support forum"
+msgstr "Форуме поддержки"
+
+#: inc/admin/welcome-screen/sections/support.php:19
+msgid "Or would you like to contact us? Write on our support forum."
+msgstr "Или вы хотите связаться с нами? Напишите на нашем форуме поддержки."
+
+#: inc/admin/welcome-screen/sections/support.php:16
+msgid "Llorix One Lite documentation"
+msgstr "Llorix One Lite документация"
+
+#: inc/admin/welcome-screen/sections/support.php:13
+msgid "Please check our full documentation for detailed information on how to use Llorix One."
+msgstr "Пожалуйста, ознакомьтесь с нашей полной документацией о том как использовать Llorix One."
+
+#: inc/admin/welcome-screen/sections/support.php:11
+msgid "Need more details?"
+msgstr "Нужно больше деталей?"
+
+#: inc/admin/welcome-screen/sections/github.php:44
+msgid "Rate our theme on %1$sWordPress.org%1$s. We'd really appreciate it!"
+msgstr "Оцените тему на %sWordPress.org%s. Мы будем очень благодарны!"
+
+#: inc/admin/welcome-screen/sections/github.php:42
+msgid "Are you enjoying Llorix One Lite?"
+msgstr "Вам нравится Llorix One Lite?"
+
+#: inc/admin/welcome-screen/sections/github.php:35
+msgid "Translate Llorix One Lite"
+msgstr "Переведите Llorix One Lite"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:177
+msgid "Install Page Builder by SiteOrigin"
+msgstr "Установите Page Builder от SiteOrigin"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:168
+msgid "Build responsive page layouts using the widgets you know and love using this simple drag and drop page builder."
+msgstr "Создайте адаптивный макет страницы используя знакомые виджеты и простой drag and drop конструктор."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:167
+msgid "Page Builder by SiteOrigin"
+msgstr "Page Builder от SiteOrigin"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:149
+msgid "Download Easy Content Types"
+msgstr "Скачайте Простые типы контента"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:140
+msgid "Custom Post Types, Taxonomies and Metaboxes in Minutes"
+msgstr "Пользовательские типы записей, таксомонии и метабоксы за минуту"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:139
+msgid "Easy Content Types"
+msgstr "Простые типы контента"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:56
+msgid "Build a landing page with a drag-and-drop content builder"
+msgstr "Создайте лендинг с помощью drag-and-drop конструктора"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:57
+msgid "In the below documentation you will find an easy way to build a great looking landing page using a drag-and-drop content builder plugin."
+msgstr "В документации ниже вы найдете простой способ создания замечательной лендинг страницы используя плагин drag-and-drop конструктор."
+
+#: inc/customizer.php:705
+msgid "Disable the Contact info section?"
+msgstr "Отключить блок Контактная информация?"
+
+#: inc/customizer.php:691
+msgid "Contact info section"
+msgstr "Блок Контактная информация"
+
+#: inc/customizer.php:649
+msgid "Disable the Latest news section?"
+msgstr "Отключить блок Последних новостей?"
+
+#: inc/customizer.php:579
+msgid "Disable the Ribbon section?"
+msgstr "Отключить блок Ленты?"
+
+#: inc/customizer.php:519
+msgid "Disable the About section?"
+msgstr "Отключить блок Про нас?"
+
+#: inc/customizer.php:220
+msgid "Disable the Very top header?"
+msgstr "Отключить верхнюю панель?"
+
+#: inc/customizer.php:473
+msgid "Disable the Logos bar sections?"
+msgstr "Отключить блок логотипа?"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:113
+msgid "Install Llorix One Companion"
+msgstr "Установить Llorix One Companion"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:104
+msgid "The Llorix One Companion plugin is a simple, easy and in the same time quite powerful plugins that adds options for Our Services, Our Team and Testimonials sections on frontpage."
+msgstr "Плагин Llorix One Companion - простой, легкий и в тоже время сильный плагин, который добавит настройки для разделов Наши Услуги, Наша Команда и Отзывы на Главную страницу."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:103
+msgid "Llorix One Companion"
+msgstr "Llorix One Companion"
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr "Полной ширины"
+
+#. Template Name of the plugin/theme
+msgid "Contact"
+msgstr "Контакт"
+
+#: sidebar.php:13
+msgid "Main sidebar"
+msgstr "Главная боковая колонка"
+
+#: sections/llorix_one_lite_ribbon_section.php:51
+#: sections/llorix_one_lite_ribbon_section.php:53
+#: sections/llorix_one_lite_ribbon_section.php:98
+#: sections/llorix_one_lite_ribbon_section.php:100
+msgid "Ribbon button label:"
+msgstr "Название кнопки Ленты:"
+
+#: sections/llorix_one_lite_ribbon_section.php:27
+#: sections/llorix_one_lite_ribbon_section.php:29
+#: sections/llorix_one_lite_ribbon_section.php:73
+#: sections/llorix_one_lite_ribbon_section.php:75
+msgid "Ribbon"
+msgstr "Лента"
+
+#: sections/llorix_one_lite_our_story_section.php:21
+#: sections/llorix_one_lite_our_story_section.php:25
+msgid "About"
+msgstr "Про"
+
+#: sections/llorix_one_lite_logos_section.php:47
+#: sections/llorix_one_lite_logos_section.php:59
+msgid "Affiliates Logos"
+msgstr "Логотипы партнеров"
+
+#: sections/llorix_one_lite_latest_news_section.php:108
+#: sections/llorix_one_lite_latest_news_section.php:221
+msgid "Read more %s"
+msgstr "Читать дальше %s"
+
+#: sections/llorix_one_lite_latest_news_section.php:98
+#: sections/llorix_one_lite_latest_news_section.php:211
+msgid "by"
+msgstr " "
+
+#: sections/llorix_one_lite_latest_news_section.php:70
+#: sections/llorix_one_lite_latest_news_section.php:183
+msgid "Latest News: %s"
+msgstr "Последние новости: %s"
+
+#: sections/llorix_one_lite_latest_news_section.php:47
+#: sections/llorix_one_lite_latest_news_section.php:160
+msgid "Post slider navigation: Up"
+msgstr "Навигация слайдера записей: Вверх"
+
+#: sections/llorix_one_lite_latest_news_section.php:46
+#: sections/llorix_one_lite_latest_news_section.php:159
+msgid "Post slider navigation: Down"
+msgstr "Навигация слайдера записей: Вниз"
+
+#: sections/llorix_one_lite_latest_news_section.php:28
+#: sections/llorix_one_lite_latest_news_section.php:143
+msgid "Latest blog posts"
+msgstr "Последние записи в блоге"
+
+#: sections/llorix_one_lite_header_section.php:94
+#: sections/llorix_one_lite_header_section.php:97
+#: sections/llorix_one_lite_header_section.php:99
+msgid "Header button label:"
+msgstr "Название кнопки Шапки:"
+
+#: sections/llorix_one_lite_contact_info_section.php:41
+#: sections/llorix_one_lite_contact_info_section.php:50
+msgid "Contact Info"
+msgstr "Контактная информация"
+
+#: search.php:25
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: inc/template-tags.php:94
+msgid "% Comments"
+msgstr "% Комментариев"
+
+#: inc/template-tags.php:94
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+#: inc/template-tags.php:94
+msgid "Leave a comment"
+msgstr "Прокомментировать"
+
+#: inc/template-tags.php:88
+msgid "Tagged %1$s"
+msgstr "Tagged %1$s"
+
+#: inc/template-tags.php:82
+msgid "Posted in %1$s"
+msgstr "Опубликовано в рубрике %1$s"
+
+#: inc/template-tags.php:63
+msgctxt "post author"
+msgid "by %s"
+msgstr "автором %s"
+
+#: inc/template-tags.php:58
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Опубликовано %s"
+
+#: inc/template-tags.php:30
+msgid "Newer posts"
+msgstr "Новые записи"
+
+#: inc/template-tags.php:26
+msgid "Older posts"
+msgstr "Зтарые записи"
+
+#: inc/extras.php:52
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: inc/customizer.php:87
+msgid "If this box is checked, the preloader will be disabled from homepage."
+msgstr "Если этот чекбокс отмечен, прелоадер будет отключен на главной странице."
+
+#: inc/customizer.php:86
+msgid "Disable preloader?"
+msgstr "Отключить предварительную загрузку?"
+
+#: inc/customizer.php:28
+msgid "Llorix One Lite theme general options"
+msgstr "Главные настройки темы Llorix One Lite"
+
+#: inc/customizer.php:26
+msgid "Advanced options"
+msgstr "Расширенные настройки"
+
+#: inc/customizer.php:794
+msgid "Copyright"
+msgstr "Копирайт"
+
+#: inc/customizer.php:778
+msgid "The main content of this section is customizable in: Customize -> Widgets -> Footer area. "
+msgstr "Основной контент в этом блоке настраивается в: Настройки -> Виджеты -> Нижний блок"
+
+#: inc/customizer.php:776
+msgid "Footer options"
+msgstr "Опции футера"
+
+#: inc/customizer.php:755
+msgid "Contact form shortcode"
+msgstr "Контакт из шорткода"
+
+#: inc/customizer.php:745
+msgid "Contact page"
+msgstr "Страница Контакт"
+
+#: inc/customizer.php:736 inc/customizer.php:767
+msgid "Map shortcode"
+msgstr "Шорткод карты"
+
+#: inc/customizer.php:722
+msgid "Add new contact field"
+msgstr "Добавить новое поле контакт"
+
+#: inc/customizer.php:656 sections/llorix_one_lite_latest_news_section.php:25
+#: sections/llorix_one_lite_latest_news_section.php:140
+msgid "Latest news"
+msgstr "Последние новости"
+
+#: inc/customizer.php:635
+msgid "Latest news section"
+msgstr "Блок Последние новости"
+
+#: inc/customizer.php:591
+msgid "Ribbon Background"
+msgstr "Фон Ленты"
+
+#: inc/customizer.php:565
+msgid "Ribbon section"
+msgstr "Блок Ленты"
+
+#: inc/customizer.php:538 sections/llorix_one_lite_our_story_section.php:16
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+#: inc/customizer.php:526 sections/llorix_one_lite_our_story_section.php:15
+msgid "Our Story"
+msgstr "Наша история"
+
+#: inc/customizer.php:505
+msgid "About section"
+msgstr "Блок Про нас"
+
+#: inc/customizer.php:273
+msgid "Blog header"
+msgstr "Заголовок блога"
+
+#: inc/customizer.php:243
+msgid "Phone number"
+msgstr "Телефон"
+
+#: header.php:95 inc/customizer.php:238
+msgid "(+9) 0999.500.400"
+msgstr "(+9) 0999.500.400"
+
+#: inc/customizer.php:206
+msgid "Very top header"
+msgstr "Верхняя панель"
+
+#: inc/customizer.php:439
+msgid "Second layer"
+msgstr "Второй слой"
+
+#: inc/customizer.php:427
+msgid "First layer"
+msgstr "Первый слой"
+
+#: inc/customizer.php:415
+msgid "If this box is checked, the parallax effect is enabled."
+msgstr "Если этот бокс отмечен, эффект паралакса включен."
+
+#: inc/customizer.php:414
+msgid "Parallax effect"
+msgstr "Паралакс эффект"
+
+#: inc/customizer.php:261 inc/customizer.php:493 inc/customizer.php:812
+msgid "Add new social icon"
+msgstr "Добавить новые социальные иконки"
+
+#: inc/customizer.php:396 inc/customizer.php:627
+msgid "Button link"
+msgstr "Ссылка кнопки"
+
+#: inc/customizer.php:391 inc/customizer.php:622
+msgid "#"
+msgstr "#"
+
+#: inc/customizer.php:385 inc/customizer.php:615
+msgid "Button label"
+msgstr "Текст командной кнопки"
+
+#: inc/customizer.php:380 inc/customizer.php:610
+#: sections/llorix_one_lite_header_section.php:17
+#: sections/llorix_one_lite_ribbon_section.php:16
+msgid "GET STARTED"
+msgstr "НАЧНЕМ"
+
+#: inc/customizer.php:368 inc/customizer.php:598
+#: sections/llorix_one_lite_header_section.php:16
+#: sections/llorix_one_lite_ribbon_section.php:15
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+#: inc/customizer.php:361 inc/customizer.php:531 inc/customizer.php:603
+#: inc/customizer.php:661
+msgid "Main title"
+msgstr "Главный заголовок"
+
+#: inc/customizer.php:356 sections/llorix_one_lite_header_section.php:15
+msgid "Simple, Reliable and Awesome."
+msgstr "Простая, Надежная и Великолепная."
+
+#: inc/customizer.php:349
+msgid "Header Logo"
+msgstr "Логотип заголовка"
+
+#: inc/customizer.php:545
+msgid "Content"
+msgstr "Содержание вкладки"
+
+#: inc/customizer.php:184
+msgid "If this box is checked, the header will toggle on frontpage."
+msgstr "Если чек бокс отмечен, то заголовок на главной странице будет переключаться."
+
+#: inc/customizer.php:183
+msgid "Header visibility"
+msgstr "Видимость шапки"
+
+#: inc/customizer.php:171 inc/extras.php:242 inc/extras.php:246
+msgid "Logo"
+msgstr "Лого"
+
+#: inc/customizer.php:159
+msgid "General options"
+msgstr "Общие настройки"
+
+#: inc/customizer.php:140
+msgid "Title color"
+msgstr "Цвет заголовка"
+
+#: inc/customizer.php:123
+msgid "Text color"
+msgstr "Цвет текста"
+
+#: inc/customizer.php:109
+msgid "Appearance"
+msgstr "Раздел настроек"
+
+#: inc/customizer.php:747
+msgid "To customize the Contact Page you need to first select the template \"Contact page\" for the page you want to use for this purpose. Then open that page in the browser and press \"Customize\" in the top bar."
+msgstr "Для настройки Страницы Контакты вам необходимо выбрать шаблон \"Страница Контакты\" для страницы, которую вы будете использовать для этих целей. Затем откройте эту страницу в браузере и нажмите \"Настроить\" в верхней панели."
+
+#: inc/class/llorix-one-lite-general-control.php:157
+msgid "Add new field"
+msgstr "Добавить новое поле"
+
+#: inc/class/llorix-one-lite-general-control.php:340
+#: inc/class/llorix-one-lite-general-control.php:403
+msgid "Delete field"
+msgstr "Удалить поле"
+
+#: inc/class/llorix-one-lite-general-control.php:335
+#: inc/class/llorix-one-lite-general-control.php:396
+msgid "Shortcode"
+msgstr "Сокращенный код"
+
+#: inc/class/llorix-one-lite-general-control.php:327
+#: inc/class/llorix-one-lite-general-control.php:389
+msgid "Link"
+msgstr "Ссылка"
+
+#: inc/class/llorix-one-lite-general-control.php:319
+#: inc/class/llorix-one-lite-general-control.php:381
+msgid "Text"
+msgstr "Текстовое поле"
+
+#: inc/class/llorix-one-lite-general-control.php:312
+#: inc/class/llorix-one-lite-general-control.php:374 inc/customizer.php:296
+#: inc/customizer.php:373
+msgid "Subtitle"
+msgstr "Подзаголовок"
+
+#: inc/class/llorix-one-lite-general-control.php:305
+#: inc/class/llorix-one-lite-general-control.php:367 inc/customizer.php:285
+msgid "Title"
+msgstr "Заголовок страницы"
+
+#: inc/class/llorix-one-lite-general-control.php:206
+msgid "Upload Image"
+msgstr "Закачать изображение"
+
+#: inc/class/llorix-one-lite-general-control.php:224
+msgid "None"
+msgstr "Без стилей"
+
+#: inc/class/llorix-one-lite-general-control.php:203
+#: inc/class/llorix-one-lite-general-control.php:223 inc/customizer.php:309
+#: inc/customizer.php:557
+msgid "Image"
+msgstr "Изображение"
+
+#: inc/class/llorix-one-lite-general-control.php:183
+#: inc/class/llorix-one-lite-general-control.php:222
+msgid "Icon"
+msgstr "Икона РС"
+
+#: inc/class/llorix-one-lite-general-control.php:219
+msgid "Image type"
+msgstr "Тип изображения"
+
+#: inc/class/llorix-one-lite-general-control.php:259
+#: inc/class/llorix-one-lite-general-control.php:350
+msgid "Llorix One"
+msgstr "Llorix One"
+
+#: inc/admin/welcome-screen/welcome-screen.php:176
+msgid "Change log"
+msgstr "Список изменений"
+
+#: inc/admin/welcome-screen/welcome-screen.php:174
+msgid "Contribute"
+msgstr "Примите участие в развитии плагина"
+
+#: inc/admin/welcome-screen/welcome-screen.php:172
+msgid "Actions recommended"
+msgstr "Рекомендуемые действия"
+
+#: inc/admin/welcome-screen/welcome-screen.php:94
+msgid "Hooray! There are no required actions for you right now."
+msgstr "Ура! На данный момент вам ничего не надо делать."
+
+#: inc/admin/welcome-screen/welcome-screen.php:61
+msgid "Get started with Llorix One Lite"
+msgstr "Начните с Llorix One Lite"
+
+#: inc/admin/welcome-screen/sections/github.php:22
+msgid "Llorix One Lite on GitHub"
+msgstr "Llorix One Lite на GitHub"
+
+#: inc/admin/welcome-screen/sections/github.php:19
+msgid "GitHub is the place to go!"
+msgstr "Стоит посетить GitHub!"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:131
+msgid "Install Pirate Forms"
+msgstr "Установить Pirate Forms"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:122
+msgid "Makes your contact page more engaging by creating a good-looking contact form on your website. The interaction with your visitors was never easier."
+msgstr "Сделайте вашу контактную страницу более привлекательной создав красивую контактную форму на вашем сайте. Коммуникация с посетителями вашего сайта станет проще."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:121
+#: inc/customizer.php:756
+msgid "Pirate Forms"
+msgstr "Pirate Forms"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:195
+msgid "Install Intergeo Maps"
+msgstr "Установите Intergeo Maps"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:108
+#: inc/admin/welcome-screen/sections/getting-started.php:126
+#: inc/admin/welcome-screen/sections/getting-started.php:144
+#: inc/admin/welcome-screen/sections/getting-started.php:172
+#: inc/admin/welcome-screen/sections/getting-started.php:190
+#: inc/admin/welcome-screen/sections/getting-started.php:208
+#: inc/admin/welcome-screen/sections/getting-started.php:226
+msgid "Already activated"
+msgstr "Уже активировано"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:186
+msgid "The Intergeo Google Maps plugin is a simple, easy and in the same time quite powerful tool for handling Google Maps in your website. The plugin allows users to create new maps by using powerful UI builder."
+msgstr "Intergeo Google Maps плагин это простой, удобный и мильный плагин для работы с Google Maps на вашем сайте. Плагин позволяет пользователям создавать новые карты используя мощный UI интерфейс."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:185
+msgid "Intergeo Maps - Google Maps Plugin"
+msgstr "Intergeo Maps - Google Maps плагин"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:97
+msgid "Recommended plugins"
+msgstr "Рекомендованные к установке плагины"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:90
+msgid "Read full documentation"
+msgstr "Прочитать полную документацию"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:89
+msgid "Need more details? Please check our full documentation for detailed information on how to use Llorix One."
+msgstr "Необходимо больше деталей? Пожалуйста, ознакомьтесь с нашей полной документацией о том как использовать Llorix One."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:88
+msgid "View full documentation"
+msgstr "Просмотреть всю документацию"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:77
+msgid "To better suit your site's needs, you can change each section's anchor to what you want. The entire process is described below."
+msgstr "Для лучшей настройки сайта под ваши нужды, вы можете изменить ссылку на каждый блок. Как это сделать описано ниже."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:76
+msgid "Change anchors"
+msgstr "Изменить якоря"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:71
+msgid "Linking the frontpage sections with the top menu is very simple, all you need to do is assign section anchors to the menu. In the below documentation you will find a nice tutorial about this."
+msgstr "Подключить блок Главная страница в верхнее меню очень просто. Все что вам надо, это подключить ссылку на него в главном меню. В документации ниже, вы найдете простое руководство как это сделать."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:70
+msgid "Link Menu to sections"
+msgstr "Блок ссылок меню"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:65
+msgid "If you find yourself in the situation where everything on your site is running very slow, you might consider having a look at the below documentation where you will find the most common issues causing this and possible solutions for each of the issues."
+msgstr "Если вы столкнулись с ситуацией, что ваш сайт работает очень медленно. Рекомендуем ознакомиться с документацией ниже, где вы найдете решения на найболее часто встречаемые проблемы."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:64
+msgid "Speed up your site"
+msgstr "Ускорьте ваш сайт"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:51
+msgid "Although English is the most used language on the internet, you should consider all your web users as well. Find out what it takes to make your website ready for foreign markets from this document."
+msgstr "Несмотря на то, что английский один из самых распространенных языков в интернете, вам надо учитывать потребности всех ваших пользователей. Узнайте, что вам необходимо сделать для подготовки вашего сайта для работы с иностранными рынками в этом документе."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:50
+msgid "How to Internationalize Your Website"
+msgstr "Как интернационализировать свой вебсайт"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:46
+#: inc/admin/welcome-screen/sections/getting-started.php:52
+#: inc/admin/welcome-screen/sections/getting-started.php:58
+#: inc/admin/welcome-screen/sections/getting-started.php:66
+#: inc/admin/welcome-screen/sections/getting-started.php:72
+#: inc/admin/welcome-screen/sections/getting-started.php:78
+msgid "View how to do this"
+msgstr "Посмотрите как это сделать"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:45
+msgid "If you want to make changes to the theme's files, those changes are likely to be overwritten when you next update the theme. In order to prevent that from happening, you need to create a child theme. For this, please follow the documentation below."
+msgstr "Если вы хотите сделать какие-то изменения в файлах темы, это лучше всего сделать создав дочернюю тему. В противном случае ваши изменения будут перезаписаны после обновления темы. Как создать дочернюю тему читайте ниже."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:44
+msgid "Create a child theme"
+msgstr "Создать дочернюю тему"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:38
+msgid "FAQ"
+msgstr "ЧАВО"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:30
+msgid "Go to Customizer"
+msgstr "Перейти к Customizer"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:29
+msgid "Using the WordPress Customizer you can easily customize every aspect of the theme."
+msgstr "Используя WordPress Customizer вы сможете быстро настроить любую деталь шаблона."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:28
+msgid "Customize everything in a single place."
+msgstr "Настрой все в одном месте."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:26
+#: inc/admin/welcome-screen/welcome-screen.php:171
+msgid "Getting started"
+msgstr "Начало работы"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:18
+msgid "We want to make sure you have the best experience using Llorix One Lite and that is why we gathered here all the necessary informations for you. We hope you will enjoy using Llorix One Lite, as much as we enjoy creating great products."
+msgstr "Мы хотим убедиться в том, что получите удовольствие от работы с Llorix One Lite и поэтому мы собрали всю необходимую для вас информацию тут. Надеемся вам понравиться работать с Llorix One Lite, так же как нам создавать отличные продукты."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:17
+msgid "Our most elegant and professional one-page theme, which turns your scrolling into a smooth and pleasant experience."
+msgstr "Наша самая элегантная и профессиональная одностраничная тема, которая доставит вам удовольствие плавной и приятной прокруткой."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:15
+msgid "Welcome to Llorix One Lite!"
+msgstr "Добро пожаловать в Llorix One Lite!"
+
+#: inc/admin/welcome-screen/sections/actions-required.php:62
+msgid "Hooray! There are no recommended actions for you right now."
+msgstr "Ура! Больше нет рекомендуемых для вас действий."
+
+#: inc/admin/welcome-screen/sections/actions-required.php:11
+msgid "Keep up with Llorix One Lite's recommended actions"
+msgstr "Будь первым с рекомендациями для Llorix One Lite"
+
+#: header.php:201
+msgid "Toggle navigation"
+msgstr "Показать/Скрыть навигацию"
+
+#: header.php:200
+msgid "Toggle Menu"
+msgstr "Мобильное меню"
+
+#: header.php:147 header.php:151
+msgid "Call us:"
+msgstr "Позвоните нам:"
+
+#: header.php:20
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: functions.php:603
+msgid "Read more about "
+msgstr "Читать больше про"
+
+#: functions.php:526
+msgid "%1$s at %2$s"
+msgstr "%1$s к %2$s"
+
+#: functions.php:525
+msgctxt "comment time format"
+msgid "l, F j, Y, g:i a"
+msgstr "l, d.m.Y, g:i a"
+
+#: functions.php:520
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: functions.php:517
+msgid "<span itemprop=\"name\">%s </span><span class=\"says\">says:</span>"
+msgstr "<span itemprop=\"name\">%s </span><span class=\"says\">написал:</span>"
+
+#: functions.php:507 functions.php:529
+msgid "(Edit)"
+msgstr "(Изменить)"
+
+#: functions.php:507
+msgid "Pingback:"
+msgstr "Пингбэк:"
+
+#: functions.php:387
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Все плагины установлены и активированы удачно. %s"
+
+#: functions.php:382
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] "Извините, у вас недостаточно полномочий, чтобы обновить плагин %s. Обратитесь к администратору сайта за помощью с обновлением."
+msgstr[1] "Извините, у вас недостаточно полномочий, чтобы обновить плагины %s. Обратитесь к администратору сайта за помощью с обновлением."
+msgstr[2] "Извините, у вас недостаточно полномочий, чтобы обновить плагины %s. Обратитесь к администратору сайта за помощью с обновлением."
+
+#: functions.php:380
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] "Извините, у вас недостаточно полномочий, чтобы активировать плагин %s. Обратитесь к администратору сайта за помощью с активацией."
+msgstr[1] "Извините, у вас недостаточно полномочий, чтобы активировать плагины %s. Обратитесь к администратору сайта за помощью с активацией."
+msgstr[2] "Извините, у вас недостаточно полномочий, чтобы активировать плагины %s. Обратитесь к администратору сайта за помощью с активацией."
+
+#: functions.php:377
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] "Извините, у вас недостаточно полномочий, чтобы установить плагин %s. Обратитесь к администратору сайта за помощью с установкой."
+msgstr[1] "Извините, у вас недостаточно полномочий, чтобы установить плагины %s. Обратитесь к администратору сайта за помощью с установкой."
+msgstr[2] "Извините, у вас недостаточно полномочий, чтобы установить плагины %s. Обратитесь к администратору сайта за помощью с установкой."
+
+#: functions.php:247
+msgid "collapse child menu"
+msgstr "свернуть дочернее меню"
+
+#: functions.php:246
+msgid "expand child menu"
+msgstr "раскрыть дочернее меню"
+
+#: functions.php:202
+msgid "Footer area %d"
+msgstr "Место для футера %d"
+
+#: functions.php:190
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: functions.php:145
+msgid "In order to use map section, you need to install Intergeo Maps plugin then use it to create a map and paste the generated shortcode in Customize -> Contact section -> Map shortcode"
+msgstr "Для использования блока карты, вам необходимо установить Intergeo Maps затем создать карту и вставить созданный шорткод в Настройки -> Блок Контакт -> Шорткод карты"
+
+#: functions.php:144
+msgid "Install Intergeo Maps - Google Maps Plugin"
+msgstr "Установить Intergeo Maps - Google Maps плагин"
+
+#: functions.php:139
+msgid "In order to have the one page look for your website, please go to Customize -> Static Front Page and switch \"Front page displays\" to \"A static page\". Then select the template \"Frontpage\" for that selected page."
+msgstr "В случае если вы хотите одностраничный сайт, пожалуйста перейдите в Настройки -> Статическая страница и переключите \"Отображать Главную страницу\" на \"Статическая страница\". Затем выберите шаблон \"Главная страница\" для выбранной страницы."
+
+#: functions.php:138
+msgid "Switch \"Front page displays\" to \"A static page\" "
+msgstr "Переключить \"Отображать Главную страницу\" на \"Статическая страница\""
+
+#: functions.php:47
+msgid "Footer Menu"
+msgstr "Меню в подвале"
+
+#: functions.php:46 header.php:255
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: footer.php:109
+msgid "WordPress"
+msgstr "Весь сайт"
+
+#: footer.php:109
+msgid "powered by"
+msgstr "разработано компанией"
+
+#: footer.php:73 footer.php:74
+msgid "Secondary Menu"
+msgstr "Дополнительное меню"
+
+#: footer.php:47
+msgid "Widgets Area 4"
+msgstr "Блок виджетов 4"
+
+#: footer.php:38
+msgid "Widgets Area 3"
+msgstr "Блок виджетов 3"
+
+#: footer.php:29
+msgid "Widgets Area 2"
+msgstr "Блок виджетов 2"
+
+#: footer.php:19
+msgid "Widgets Area 1"
+msgstr "Блок виджетов 1"
+
+#: content.php:52
+msgid "Posted in"
+msgstr "Опубликовано в"
+
+#: sections/llorix_one_lite_latest_news_section.php:71
+#: sections/llorix_one_lite_latest_news_section.php:95
+#: sections/llorix_one_lite_latest_news_section.php:184
+#: sections/llorix_one_lite_latest_news_section.php:208
+msgctxt "post time format"
+msgid "l, F j, Y, g:i a"
+msgstr "l, d.m.Y, g:i a"
+
+#: content.php:9
+msgid "Blog post: %s"
+msgstr "Запись блога: %s"
+
+#: content-search.php:84 content.php:79
+msgid "about "
+msgstr "Информация"
+
+#: content-search.php:84 content.php:79
+msgid "Read more %s ..."
+msgstr "Читать дальше %s ..."
+
+#: content-search.php:72 content-single.php:30 content.php:67
+msgid "% comments"
+msgstr "% комментария(ев)"
+
+#: content-search.php:72 content-single.php:30 content.php:67
+msgid "One comment"
+msgstr "﻿Один комментарий"
+
+#: content-search.php:72 content-single.php:30 content.php:67
+msgid "No comments"
+msgstr "Комментариев нет"
+
+#: content-search.php:58
+msgid "Posted in "
+msgstr "Опубликовано в"
+
+#. translators: used between list items, there is a space after the comma
+#: content-search.php:52 content.php:55 inc/template-tags.php:80
+#: inc/template-tags.php:86
+msgid ", "
+msgstr ", "
+
+#: content-page.php:25 content-search.php:89 content-single-download.php:29
+#: content-single.php:39 content.php:84
+msgid "Pages:"
+msgstr "Страница:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Запрошенную информацию найти не удалось. Возможно, будет полезен поиск по сайту."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Простите, но по вашему запросу ничего не найдено. Пожалуйста, попробуйте поискать что нибудь другое."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните отсюда</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Не найдено"
+
+#: content-contact.php:36 content-page.php:32
+#: eventbrite/eventbrite-index.php:56 eventbrite/eventbrite-single.php:46
+#: inc/template-tags.php:98
+msgid "Edit"
+msgstr "Правка"
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr "Комментарии запрещены."
+
+#: comments.php:41 comments.php:64
+msgid "Newer Comments"
+msgstr "Следующие комментарии"
+
+#: comments.php:40 comments.php:63
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+#: comments.php:37 comments.php:60
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: class-tgm-plugin-activation.php:3378
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка плагина %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr "Все установки завершены."
+
+#: class-tgm-plugin-activation.php:3376
+msgid "%1$s installed successfully."
+msgstr "%1$s успешно установлен."
+
+#: class-tgm-plugin-activation.php:3375
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Начинается процесс установки. Он может занять некоторое время — пожалуйста, наберитесь терпения."
+
+#: class-tgm-plugin-activation.php:3372
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка и активация плагина %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr "Все установки и активации завершены."
+
+#: class-tgm-plugin-activation.php:3370 class-tgm-plugin-activation.php:3376
+msgid "Hide Details"
+msgstr "Скрыть детали"
+
+#: class-tgm-plugin-activation.php:3370 class-tgm-plugin-activation.php:3376
+msgid "Show Details"
+msgstr "Показать детали"
+
+#: class-tgm-plugin-activation.php:3370
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s успешно установлен и активирован."
+
+#: class-tgm-plugin-activation.php:3369
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Начинается процесс установки и активации. Он может занять некоторое время — пожалуйста, наберитесь терпения."
+
+#: class-tgm-plugin-activation.php:3365
+msgid "The installation of %1$s failed."
+msgstr "Установка %1$s не удалась."
+
+#: class-tgm-plugin-activation.php:3364
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "При установке %1$s произошла ошибка: <strong>%2$s</strong>."
+
+#: class-tgm-plugin-activation.php:3362
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Обновление плагина %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr "Активация плагина не удалась"
+
+#: class-tgm-plugin-activation.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr "Нет доступных плагинов для активации в данный момент."
+
+#: class-tgm-plugin-activation.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Не выбраны плагины для активации. Действие не принято."
+
+#: class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr "Не доступны плагины для обновления, в данный момент."
+
+#: class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr "Нет доступных плагинов для установки в данный момент."
+
+#: class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Не выбраны плагины для обновления. Действие не принято."
+
+#: class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Не выбраны плагины для установки. Действие не принято."
+
+#: class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr "Активно"
+
+#: class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr "Обновить"
+
+#: class-tgm-plugin-activation.php:2603
+#: inc/admin/welcome-screen/sections/getting-started.php:213
+#: inc/admin/welcome-screen/sections/getting-started.php:231
+msgid "Install"
+msgstr "Истраллировать"
+
+#: class-tgm-plugin-activation.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr "Обновленное сообщение от автора плагина:"
+
+#: class-tgm-plugin-activation.php:2500
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr "Активировать %2$s"
+
+#: class-tgm-plugin-activation.php:2495
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr "Обновить %2$s"
+
+#: class-tgm-plugin-activation.php:2491
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr "Установить %2$s"
+
+#: class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr "Статус"
+
+#: class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr "Версия"
+
+#: class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr "тип"
+
+#: class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr "Источник"
+
+#: class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr "плагин"
+
+#: class-tgm-plugin-activation.php:2422
+msgid "No plugins to install, update or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr "Ни один плагин не нуждается в установке, обновлении или активации. <a href=\"%1$s\">Вернуться в Консоль</a>"
+
+#: class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr "Доступные версии:"
+
+#: class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr "Минимальная требуемая версия:"
+
+#: class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr "Установленная версия:"
+
+#: class-tgm-plugin-activation.php:2371
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "неизвестный"
+
+#: class-tgm-plugin-activation.php:2289
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Для активации <span class=\"count\">(%s)</span>"
+msgstr[1] "Для активации <span class=\"count\">(%s)</span>"
+msgstr[2] "Для активации <span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2286
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Доступны обновления <span class=\"count\">(%s)</span>"
+msgstr[1] "Доступны обновления <span class=\"count\">(%s)</span>"
+msgstr[2] "Доступны обновления <span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2283
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Для установки <span class=\"count\">(%s)</span>"
+msgstr[1] "Для установки <span class=\"count\">(%s)</span>"
+msgstr[2] "Для установки <span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2280
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Все <span class=\"count\">(%s)</span>"
+msgstr[1] "Все <span class=\"count\">(%s)</span>"
+msgstr[2] "Все <span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2235
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr "рекомендуется обновление"
+
+#: class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr "Требуется обновление"
+
+#: class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr "необходимое обновление недоступно"
+
+#: class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr "Активированные"
+
+#: class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr "Установлен, но не активирован"
+
+#: class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr "Не установлен"
+
+#: class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr "Включён в дистрибутив"
+
+#: class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr "Внешний источник"
+
+#: class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr "Каталог WordPress"
+
+#: class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr "Рекомендуется"
+
+#: class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr "Обязательное"
+
+#: class-tgm-plugin-activation.php:1881
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: class-tgm-plugin-activation.php:1116 class-tgm-plugin-activation.php:2828
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "и"
+
+#: class-tgm-plugin-activation.php:938
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Архив плагина состоит из более чем одного файла, но эти файлы не находятся в папке."
+
+#: class-tgm-plugin-activation.php:935 class-tgm-plugin-activation.php:938
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Пожалуйста, свяжитесь с поставщиком плагина и попросите его упаковать плагин в соответствии с рекомендациями WordPress."
+
+#: class-tgm-plugin-activation.php:935
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Архив плагина не содержит папки нужным именем и переименование не сработало."
+
+#: class-tgm-plugin-activation.php:828 class-tgm-plugin-activation.php:3438
+msgid "Return to the Dashboard"
+msgstr "Вернуться в консоль"
+
+#: class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr "Вместо этого установите настройку переменной parent_slug."
+
+#: class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr "Необходимо обновление"
+
+#: class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Этот плагин необходимо обновить, для совместимости с вашей темой."
+
+#: class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr "Пожалуйста, свяжитесь с администратором сайта для помощи."
+
+#: class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr "Закрыть это уведомление"
+
+#: class-tgm-plugin-activation.php:403
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Всеплагины установлены и активированны успешно. %1$s"
+
+#: class-tgm-plugin-activation.php:402
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Плагин не активирован. Для данной темы необходима более новая версия %s. Пожалуйста, обновите плагин."
+
+#: class-tgm-plugin-activation.php:401
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Никакие действия не применялись. Плагин %1$s был уже активирован."
+
+#: class-tgm-plugin-activation.php:400 class-tgm-plugin-activation.php:2832
+msgid "The following plugin was activated successfully:"
+msgstr "Этот плагин был успешно активирован:"
+
+#: class-tgm-plugin-activation.php:399 class-tgm-plugin-activation.php:3029
+#: functions.php:386
+msgid "Plugin activated successfully."
+msgstr "Плагин успешно активирован."
+
+#: class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr "Вернуться в консоль"
+
+#: class-tgm-plugin-activation.php:397 functions.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Вернуться к установщику необходимых плагинов"
+
+#: class-tgm-plugin-activation.php:392 functions.php:384
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Начать активацию плагина"
+msgstr[1] "Начать активацию плагинов"
+msgstr[2] "Начать активацию плагинов"
+
+#: class-tgm-plugin-activation.php:387
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Начать обновлени плагина"
+msgstr[1] "Начать обновление плагинов"
+msgstr[2] "Начать обновление плагинов"
+
+#: class-tgm-plugin-activation.php:382 functions.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Начать установку плагина"
+msgstr[1] "Начать установку плагинов"
+msgstr[2] "Начать установку плагинов"
+
+#: class-tgm-plugin-activation.php:377
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] "Простите, но у вас нет прав на активацию %1$s плагина."
+msgstr[1] "Простите, но у вас нет прав на активацию %1$s плагинов."
+msgstr[2] "Простите, но у вас нет прав на активацию %1$s плагинов."
+
+#: class-tgm-plugin-activation.php:372 functions.php:379
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Следующий рекомендованный плагин на текущий момент неактивен: %1$s."
+msgstr[1] "Следующие рекомендованные плагины на текущий момент неактивны: %1$s."
+msgstr[2] "Следующие рекомендованные плагины на текущий момент неактивны: %1$s."
+
+#: class-tgm-plugin-activation.php:367 functions.php:378
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Следующий необходимый плагин на текущий момент неактивен: %1$s."
+msgstr[1] "Следующие необходимые плагины на текущий момент неактивны: %1$s."
+msgstr[2] "Следующие необходимые плагины на текущий момент неактивны: %1$s."
+
+#: class-tgm-plugin-activation.php:362
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] "Простите, но у вас нет прав на обновление %1$s плагина"
+msgstr[1] "Простите, но у вас нет прав на обновление %1$s плагинов"
+msgstr[2] "Простите, но у вас нет прав на обновление %1$s плагинов"
+
+#: class-tgm-plugin-activation.php:357
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Есть обновление для: %1$s."
+msgstr[1] "Есть обновления для: %1$s."
+msgstr[2] "Есть обновления для: %1$s."
+
+#: class-tgm-plugin-activation.php:352 functions.php:381
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Следующий плагин необходимо обновить до текущей версии для максимальной совместимости с этой темой: %1$s."
+msgstr[1] "Следующие плагины необходимо обновить до текущей версии для максимальной совместимости с этой темой: %1$s."
+msgstr[2] "Следующие плагины необходимо обновить до текущей версии для максимальной совместимости с этой темой: %1$s."
+
+#: class-tgm-plugin-activation.php:347
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] "Простите, но у вас нет прав на установку %1$s плагина."
+msgstr[1] "Простите, но у вас нет прав на установку %1$s плагинов."
+msgstr[2] "Простите, но у вас нет прав на установку %1$s плагинов."
+
+#: class-tgm-plugin-activation.php:342 functions.php:376
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Эта тема рекомендует к установке следующий плагин: %1$s."
+msgstr[1] "Эта тема рекомендует к установке следующие плагины: %1$s."
+msgstr[2] "Эта тема рекомендует к установке следующие плагины: %1$s."
+
+#: class-tgm-plugin-activation.php:337 functions.php:375
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Эта тема требует следующий плагин: %1$s."
+msgstr[1] "Эта тема требует следующие плагины: %1$s."
+msgstr[2] "Эта тема требует следующие плагины: %1$s."
+
+#: class-tgm-plugin-activation.php:336 functions.php:374
+msgid "Something went wrong with the plugin API."
+msgstr "Что-то пошло не так с API плагинов."
+
+#: class-tgm-plugin-activation.php:335 functions.php:373
+msgid "Installing Plugin: %s"
+msgstr "Установка плагина: %s"
+
+#: class-tgm-plugin-activation.php:334 functions.php:372
+msgid "Install Plugins"
+msgstr "Установить плагины"
+
+#: class-tgm-plugin-activation.php:333 functions.php:371
+msgid "Install Required Plugins"
+msgstr "Установка необходимых плагинов"
+
+#: 404.php:29
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "По данному адресу ничего не найдено. Попробуйте воспользоваться одной из ссылок ниже или поиском."
+
+#: 404.php:25
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "К сожалению, страница не найдена."
+
+#. Author URI of the plugin/theme
+msgid "http://themeisle.com/"
+msgstr "http://themeisle.com/"
+
+#. Author of the plugin/theme
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Theme URI of the plugin/theme
+msgid "http://themeisle.com/themes/llorix-one/"
+msgstr "http://themeisle.com/themes/llorix-one/"

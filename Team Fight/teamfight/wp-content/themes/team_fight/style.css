@@ -1,0 +1,74 @@
+/*
+ Theme Name:   Team Fight
+ Description:  Team Fight
+ Author:       Inspiren
+
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  Team Fight
+*/
+
+#wpsapButtonPopup > img{
+    margin-top: 4px;
+    width: 90px;        
+}
+.mess_general.personal_mess div {
+    word-wrap: break-word;
+    max-width: 288px;
+}
+
+#premium input[type=radio]{
+    width:40px;
+}
+
+#premium li {
+    list-style:none !important;
+}
+
+#primary {
+    max-width: 800px;
+    margin: 40px auto;
+    background: rgb(0,0,0,0.3);
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+#primary input {
+    background: #fff;
+    padding: 3px;
+    width: 300px;
+}
+#primary p,#primary a {
+    color: #fff;
+}
+#primary .pmpro_message a{
+ color: #000;   
+}
+
+.chat_inf_box {
+    width: 20px;
+}
+#pms_new_subscription-form input[type="submit"] {
+    color: #fff !important;
+    background: #f8632b;
+    font-size: 26px;
+    padding: 8px;
+}
+.chat_timer_box {
+    margin-top: 30px;
+}
+.btn{
+    padding:10px;
+}
+.right .num_box_new {
+    height: 49px;
+}
+
+.right .num_box_new input {
+    height: 49px;
+}
+
+.right .num_box_new .selected {
+    background-color: rgba(245, 249, 252, 0.35) !important;
+}

@@ -1,0 +1,6 @@
+****** File tpl ****
+- sub/product_info/default.tpl
+- sub/product_info/tab.tpl
+
+***** File JS *****
+- /js/product.js

@@ -1,0 +1,30 @@
+User-Agent: *
+Disallow: 
+Disallow: /admin702mesxhy
+
+User-Agent: Googlebot
+Disallow: /admin702mesxhy
+
+User-Agent: Googlebot-Mobile
+Disallow: /admin702mesxhy
+
+User-Agent: Googlebot-Image
+Disallow: /admin702mesxhy
+
+User-Agent: Mediapartners-Google
+Disallow: /admin702mesxhy
+
+User-Agent: Adsbot-Google
+Disallow: /admin702mesxhy
+
+User-Agent: Slurp
+Disallow: /admin702mesxhy
+
+User-Agent: msnbot
+Disallow: /admin702mesxhy
+
+User-Agent: msnbot-media
+Disallow: /admin702mesxhy
+
+User-Agent: Teoma
+Disallow: /admin702mesxhy

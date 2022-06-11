@@ -1,0 +1,309 @@
+/* ==============================================================
+
+Template name : Sonno - Multi purpose bootstrap landing page
+Categorie : Site template
+Author : Nce18cex
+Version : v1.0.0
+Created : 31 August  2015
+Last update : 11 September 2015
+
+-----------------------------------------------------------------
+CSS structure
+-----------------------------------------------------------------
+
+01. Primary color
+    01.1. Color
+	01.2. Background color
+	01.3. Border color
+02. Secondary color
+    01.1. Color
+    01.1. Background color
+	01.2. Border color
+02. Tertiary color
+    01.1. Color
+    01.1. Background color
+	01.2. Border color
+02. Quaternary color
+    01.1. Color
+    01.1. Background color
+	01.2. Border color
+	
+============================================================== */
+
+/*
+Primary color
+=========================== */
+
+/*
+Color
+--------------------------- */
+a,
+a:focus,
+a:hover,
+a:active,
+ul.social-network > li > a:hover,
+ul.social-network > li > a:focus,
+ul.list-link > li > a:hover,
+ul.list-link > li > a:focus,
+.title-section > h3,
+.title-section > h4,
+.title-icon-primary,
+.jwg_slider_module .tabbed_navigation > ul li.active,
+.jwg_slider_module .tabbed_navigation > ul li:hover,
+ul.filter-items li:hover,
+.icon-primary,
+.bg-content > .content > h4,
+.img-hover > .dh-overlay > .option > a.zoom:hover,
+.navbar-nav li.active a,
+.navbar-nav li a:hover,
+.navbar-nav li.dropdown a:focus,
+.navbar-nav li.dropdown a:active,
+.navbar-toggle:hover > .icon,
+.navbar-toggle:focus > .icon,
+.validation,
+.navbar-toggle:active > .icon,
+.demo-column h5 a:hover,
+.demo-column h5 a:focus,
+.demo-column h5 a:active,
+.direction-middle > .direction-nav > .direct-prev:hover,
+.direction-middle > .direction-nav > .direct-next:hover{
+	color:#f4bc16;;
+}
+
+/*
+Background
+--------------------------- */
+#infscr-loading,
+.owl-theme .owl-controls.clickable .owl-page:hover span,
+.img-hover > .dh-overlay > .option,
+ul.filter-items li.active,
+.pricing-table.primary > .pricing-title,
+.btn-primary,
+#toTopHover,
+.flex-control-paging li a:hover,
+.flex-control-paging li a.flex-active,
+div.pp_default .pp_close:hover,
+div.pp_default .pp_expand:hover,
+div.pp_default .pp_contract:hover,
+.widget fieldset.search-wrapper button,
+.pager li > a:hover,
+.pager li > a:focus,
+.pager li > a:active,
+.pager li > span:hover,
+.pager li > span:focus,
+.pager li > span:active,
+ul.tags li a:hover,
+ul.tags li a:active,
+ul.tags li a:focus,
+.demo-panel h6,
+a.openpanel{
+	background-color:#df2626;;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.widget fieldset.search-wrapper button:hover{
+	background-color:#bc1d1d;
+}
+
+.post-item.primary > .post-meta,
+.team-item.primary > .caption,
+.direction > .direction-nav > .direct-prev:hover,
+.direction > .direction-nav > .direct-prev:focus,
+.direction > .direction-nav > .direct-next:hover,
+.direction > .direction-nav > .direct-next:focus{
+    background-color: #f33434;
+}
+
+/*
+Border
+--------------------------- */
+.title-section:after,
+.title-section.small:after,
+.title-icon-primary,
+.input-form > .icon.active,
+.input-form:hover > .icon,
+.input-form:hover > .form-control,
+.panel-group > .panel > .panel-heading:hover,
+.panel-group > .panel > .panel-heading:hover .icon,
+ul.filter-items li.active,
+ul.filter-items li:hover,
+.form-control:hover,
+.form-control:focus,
+.flex-control-paging li a:hover,
+.flex-control-paging li a.flex-active,
+.navbar-nav li.active a,
+.navbar-nav li a:hover,
+.navbar-nav li.dropdown a:focus,
+.navbar-nav li.dropdown a:active,
+.navbar-toggle:hover > .icon,
+.navbar-toggle:focus > .icon,
+.navbar-toggle:active > .icon,
+.title-aside:after,
+.pager li > a:hover,
+.pager li > a:focus,
+.pager li > a:active,
+.pager li > span:hover,
+.pager li > span:focus,
+.pager li > span:active,
+ul.tags li a:hover,
+ul.tags li a:active,
+ul.tags li a:focus{
+	border-color:#df2626;;
+}
+
+.btn-primary.btn-bavel{
+	border-bottom-color:#b41616;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active{
+	border-color:#bc1d1d;
+}
+
+.btn-primary.btn-bavel:hover,
+.btn-primary.btn-bavel:focus,
+.btn-primary.btn-bavel:active{
+	border-bottom-color:#8c1313;
+}
+
+.direction > .direction-nav > .direct-prev:hover,
+.direction > .direction-nav > .direct-prev:focus,
+.direction > .direction-nav > .direct-next:hover,
+.direction > .direction-nav > .direct-next:focus{
+    border-color: #f33434;
+}
+
+
+/*
+Secondary color
+=========================== */
+
+/*
+Color
+--------------------------- */
+.icon-secondary{
+    color: #39a151;
+}
+
+/*
+Background
+--------------------------- */
+.btn-secondary,
+.post-item.secondary > .post-meta,
+.team-item.secondary > .caption,
+.pricing-table.secondary > .pricing-title,
+.icon-green{
+	background-color:#f4bc16;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active{
+	background-color:#c99a13;
+}
+
+/*
+Border
+--------------------------- */
+.btn-secondary.btn-bavel{
+	border-bottom-color:#c99a13;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active{
+	border-color:#c99a13;
+}
+
+.btn-secondary.btn-bavel:hover,
+.btn-secondary.btn-bavel:focus,
+.btn-secondary.btn-bavel:active{
+	border-bottom-color:#816411;
+}
+
+/*
+Tertiary color
+=========================== */
+
+/*
+Color
+--------------------------- */
+.icon-tertiary{
+    color: #f6a525;
+}
+
+/*
+Background
+--------------------------- */
+.btn-tertiary,
+.post-item.tertiary > .post-meta,
+.team-item.tertiary > .caption,
+.pricing-table.tertiary > .pricing-title,
+.featured,
+.inner-heading,
+#loading,
+.demo-heading{
+    background: #f6a525;
+}
+
+.btn-tertiary:hover,
+.btn-tertiary:focus,
+.btn-tertiary:active{
+	background-color:#df9520;
+}
+
+/*
+Border
+--------------------------- */
+.btn-tertiary.btn-bavel{
+	border-bottom-color:#d38c1d;
+}
+
+.btn-tertiary.btn-bavel:hover,
+.btn-tertiary.btn-bavel:focus,
+.btn-tertiary.btn-bavel:active{
+	border-bottom-color:#ad7527;
+}
+
+/*
+Quaternary color
+=========================== */
+
+/*
+Color
+--------------------------- */
+.icon-quaternary{
+    color: #25c7f6;
+}
+
+/*
+Background
+--------------------------- */
+.btn-quaternary,
+.post-item.quaternary > .post-meta,
+.team-item.quaternary > .caption,
+.pricing-table.quaternary > .pricing-title{
+    background: #25c7f6;
+}
+
+.btn-quaternary:hover,
+.btn-quaternary:focus,
+.btn-quaternary:active{
+	background-color:#20b6e2;
+}
+
+/*
+Border
+--------------------------- */
+.btn-quaternary.btn-bavel{
+	border-bottom-color:#22add6;
+}
+
+.btn-quaternary.btn-bavel:hover,
+.btn-quaternary.btn-bavel:focus,
+.btn-quaternary.btn-bavel:active{
+	border-bottom-color:#1f9ec3;
+}

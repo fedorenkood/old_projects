@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/default.css" title="default" />
+    
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<title>Services</title>
+	<meta name="description" content="Your description goes here." />
+	<meta name="keywords" content="your, keywords, here" />
+	<meta name="copyright" content="yourcompany.com" />
+    
+    
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script>
+      $(function() {
+        $( "#accordion" ).accordion({
+          event: "click hoverintent"
+        });
+      });
+
+      /*
+       * hoverIntent | Copyright 2011 Brian Cherne
+       * http://cherne.net/brian/resources/jquery.hoverIntent.html
+       * modified by the jQuery UI team
+       */
+      $.event.special.hoverintent = {
+        setup: function() {
+          $( this ).bind( "mouseover", jQuery.event.special.hoverintent.handler );
+        },
+        teardown: function() {
+          $( this ).unbind( "mouseover", jQuery.event.special.hoverintent.handler );
+        },
+        handler: function( event ) {
+          var currentX, currentY, timeout,
+            args = arguments,
+            target = $( event.target ),
+            previousX = event.pageX,
+            previousY = event.pageY;
+
+          function track( event ) {
+            currentX = event.pageX;
+            currentY = event.pageY;
+          };
+
+          function clear() {
+            target
+              .unbind( "mousemove", track )
+              .unbind( "mouseout", clear );
+            clearTimeout( timeout );
+          }
+
+          function handler() {
+            var prop,
+              orig = event;
+
+            if ( ( Math.abs( previousX - currentX ) +
+                Math.abs( previousY - currentY ) ) < 7 ) {
+              clear();
+
+              event = $.Event( "hoverintent" );
+              for ( prop in orig ) {
+                if ( !( prop in event ) ) {
+                  event[ prop ] = orig[ prop ];
+                }
+              }
+              // Prevent accessing the original event since the new event
+              // is fired asynchronously and the old event is no longer
+              // usable (#6028)
+              delete event.originalEvent;
+
+              target.trigger( event );
+            } else {
+              previousX = currentX;
+              previousY = currentY;
+              timeout = setTimeout( handler, 100 );
+            }
+          }
+
+          timeout = setTimeout( handler, 100 );
+          target.bind({
+            mousemove: track,
+            mouseout: clear
+          });
+        }
+      };
+    </script>
+    
+    
+</head>
+
+
+<body>
+	<div id="wrapper">
+	
+	<div id="header">
+		
+		<h1><a href="index.html"><strong>All</strong>Buy</a></h1>
+		<p class="tagline">Команда профессионалов к вашим услугам</p>
+        
+		<ul>
+			
+			<li><a href="index.html"><i class="fa fa-home" style="padding: 0 5px 0 0"></i>Главная <span class="navi-description">Назад на главную</span></a></li>
+			<li class="current"><a href="services.html"><i class="fa fa-cart-plus" style="padding: 0 5px 0 0"></i>Услуги <span class="navi-description">Что ми делаем</span></a></li>
+			<li><a href="portfolio.html"><i class="fa fa-briefcase" style="padding: 0 5px 0 0"></i>Портфолио <span class="navi-description">Выполненая работа</span></a></li>
+			<li><a href="about.html"><i class="fa fa-leanpub" style="padding: 0 5px 0 0"></i>О нас <span class="navi-description">Кто мы</span></a></li>
+			<li><a href="contact.html"><i class="fa fa-phone" style="padding: 0 5px 0 0"></i>Контакты <span class="navi-description">Свяжитесь с нами</span></a></li>
+		</ul>
+
+		<!-- Search 
+		<div id="searchbox">
+			<form action="" id="search" method="post">
+				<fieldset>
+					<input type="submit" id="searchSubmit" value="Search" />
+					<input type="text" name="searchTerm" size="20" />
+				</fieldset>
+			</form>
+		</div><!-- End search -->
+	</div>
+
+	<div id="contentArea">
+		<div id="primaryContent">
+			<p class="breadcrumbs">Вы здесь: <a href="index.html">Главная</a> &raquo; <a href="#">Услуги</a></p>
+
+			<h2>Сервис</h2>
+			<p>Наша задача состоит не только в том, чтобы просто продать нужный товар, но и в том, чтобы информировать и просвещать покупателя. Для этого мы снимаем видеообзоры «горячих» новинок, готовим статьи и новости. Вооружившись всесторонней информацией об интересном устройстве и его главных конкурентах, Вы сможете самостоятельно принять взвешенное решение о покупке именно того товара, который Вам нужен.</p>
+
+			<h3>Список услуг</h3>
+			<p>Цены на услуги указаны в таблице</p>
+			
+			<ul>
+				<li><span>Редактирывание звука</span></li>
+				<li><span>Создание презентацый</span></li>
+				<li><span>Графическое редактирование</span></li>
+                <li><span>Wep дизайн</span></li>
+                <li><span>Внутренняя и внешняя оптимизация сайтов (SEO)</span></li>
+                <li><span>Базовая раскрутка сайтов</span></li>
+			</ul>
+			
+
+			<table>
+        			<thead>
+        				<tr>
+        					<th scope="col">Услуга</th>
+        					<th scope="col">Цена</th>
+        					<th scope="col">День</th>
+        					<th scope="col">Время работы</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr class="alt">
+        					<td>Редактирывание звука</td>
+        					<td>100 грн.</td>
+        					<td>Пн.</td>
+        					<td>10:00-18:00</td>
+        				</tr> 
+        				<tr>
+        					<td>Создание презентацый</td>
+        					<td>100 грн.</td>
+        					<td>Вт.</td>
+        					<td>10:00-18:00</td>
+        				</tr>    
+        				<tr class="alt">
+
+        					<td>Графическое редактирование</td>
+        					<td>100 грн.</td>
+        					<td>Ср.</td>
+        					<td>10:00-18:00</td>
+        				</tr>
+        				<tr>
+        					<td>Wep дизайн</td>
+        					<td>100 грн.</td>
+        					<td>Чт.</td>
+        					<td>10:00-18:00</td>
+        				</tr>
+                        <tr class="alt">
+        					<td>Внутренняя и внешняя оптимизация сайтов (SEO)</td>
+        					<td>100 грн.</td>
+        					<td>Пт.</td>
+        					<td>10:00-18:00</td>
+        				</tr> 
+                        <tr>
+        					<td>Базовая раскрутка сайтов</td>
+        					<td>100 грн.</td>
+        					<td>Сб.-Вс.</td>
+        					<td>Выходной</td>
+        				</tr> 
+        			</tbody>                           
+        		</table>
+            
+            
+            <!--Акардион-->
+            
+            
+            <div style="padding:10px 0 0 0">
+
+                <div id="accordion">
+                        <h3>Сервис</h3>
+                        <div>
+                            <p>Наша задача состоит не только в том, чтобы просто продать нужный товар, но и в том, чтобы информировать и просвещать покупателя. Для этого мы снимаем видеообзоры «горячих» новинок, готовим статьи и новости. Вооружившись всесторонней информацией об интересном устройстве и его главных конкурентах, Вы сможете самостоятельно принять взвешенное решение о покупке именно того товара, который Вам нужен.</p>
+                        </div>
+                    <h3>Список услуг</h3>
+                    <div>
+                        <p>Цены на услуги указаны в таблице</p>
+			
+			             <ul>
+                        <li><span>Редактирывание звука</span></li>
+                        <li><span>Создание презентацый</span></li>
+                        <li><span>Графическое редактирование</span></li>
+                        <li><span>Wep дизайн</span></li>
+                        <li><span>Внутренняя и внешняя оптимизация сайтов (SEO)</span></li>
+                        <li><span>Базовая раскрутка сайтов</span></li>
+                    </div>
+                        
+                    <h3>Таблица</h3>
+                    <div>
+                        
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">Услуга</th>
+                                <th scope="col">Цена</th>
+                                <th scope="col">День</th>
+                                <th scope="col">Время работы</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="alt">
+                                <td>Редактирывание звука</td>
+                                <td>100 грн.</td>
+                                <td>Пн.</td>
+                                <td>10:00-18:00</td>
+                            </tr> 
+                            <tr>
+                                <td>Создание презентацый</td>
+                                <td>100 грн.</td>
+                                <td>Вт.</td>
+                                <td>10:00-18:00</td>
+                            </tr>    
+                            <tr class="alt">
+
+                                <td>Графическое редактирование</td>
+                                <td>100 грн.</td>
+                                <td>Ср.</td>
+                                <td>10:00-18:00</td>
+                            </tr>
+                            <tr>
+                                <td>Wep дизайн</td>
+                                <td>100 грн.</td>
+                                <td>Чт.</td>
+                                <td>10:00-18:00</td>
+                            </tr>
+                            <tr class="alt">
+                                <td>Внутренняя и внешняя оптимизация сайтов (SEO)</td>
+                                <td>100 грн.</td>
+                                <td>Пт.</td>
+                                <td>10:00-18:00</td>
+                            </tr> 
+                            <tr>
+                                <td>Базовая раскрутка сайтов</td>
+                                <td>100 грн.</td>
+                                <td>Сб.-Вс.</td>
+                                <td>Выходной</td>
+                            </tr> 
+                        </tbody>                           
+                    </table>  
+                    </div>
+                        
+                </div>
+            </div>
+            <!--Акардион конец-->
+                
+            
+                
+		</div>
+		
+		<div id="secondaryContent">
+			<ul class="secondaryNavi">
+				<li><a href="#">Ссылка пример</a></li>
+				<li><a href="#">Ссылка пример</a></li>
+				<li><a href="#">Ссылка пример</a></li>
+				<li><a href="#">Ссылка пример</a></li>
+			</ul>
+			
+			<div class="note">
+				<h3>Обратите внимание!</h3>
+				<p>Все наши предыдущие работы помещены в Портфолио</p>
+				<a href="portfolio.html">Портфолио &raquo;</a>
+			</div>
+		</div>
+	</div>
+
+
+	    
+	<div id="footerContent">
+		<div class="footerColumn">
+			<h4>Спонсоры</h4>
+			<ul>
+				<li><a href="#">Ссылка</a></li>
+				<li><a href="#">Ссылка</a></li>
+				<li><a href="#">Ссылка</a></li>
+				<li><a href="#">Ссылка</a></li>
+				<li><a href="#">Ссылка</a></li>
+				<li><a href="#">Ссылка</a></li>
+			</ul>
+		</div>
+
+		<div class="footerColumn">
+			<h4>Сайты сотрудники</h4>
+			<ul>
+				<li><a href="#">Ссылка</a></li>
+				<li><a href="#">Ссылка</a></li>
+				<li><a href="#">Ссылка</a></li>
+				<li><a href="#">Ссылка</a></li>
+				<li><a href="#">Ссылка</a></li>
+				<li><a href="#">Ссылка</a></li>
+			</ul>
+		</div>
+
+		<div class="footerColumn last">
+			<h5>Адреса:</h5> <p>ул. Мечникова, Ирпень</p>
+			<h5>Номер:</h5> <p>+(38)099-569-5913</p>
+			<h5>E-mail:</h5> <p><a href="fedorenkoalex23@mail.ru">fedorenkoalex23@mail.ru</a></p>
+			<a href="contact.html" class="box">Контакты</a>
+		</div>
+			
+			<div id="footerLinks">
+			<p><a href="index.html">Главная</a> | <a href="services.html">Услуги</a> | <a href="portfolio.html">Портфолио</a> | <a href="about.html">О нас</a> | <a href="contact.html">Контакты</a></p>
+
+			<p class="right">&copy; 2015 Интернет магазин AllBuy. Все права защищены</p>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

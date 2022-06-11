@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: bold 14px Arial, sans-serif;
+}
+
+#calculator {
+	width: 267px;
+	height: auto;
+	background-color: #82d1ff;
+	border-radius: 3px;
+	box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+	margin: 130px auto;
+	padding: 7px 0 0 7px;
+}
+
+
+
+.top .screen {
+	height: 33px;
+	width: 188px;
+	
+	float: right;
+	margin: 0 7px 8px 0; 
+	padding: 0 10px;
+	line-height: 35px;
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 2.5px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+	
+	
+	font-size: 17px;
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+
+
+
+/*keys*/
+.top span.clear {
+	float: left;
+}
+
+.keys, .top {overflow: hidden;}
+
+.keys span, .top span{
+	width: 60px;
+	height: 33px;
+	float: left;
+	text-align: center;
+	border-radius: 2.5px;
+	margin: 0 5px 8px 0; 
+	position: relative;
+	top: 0;
+	padding: 9px 0;
+	transition: all 0.2s ease;
+	user-select: none;
+	background-color: #f8f8f8;
+	box-shadow: 0px 3.5px rgba(0, 0, 0, 0.2);
+}
+
+.keys span.operator{
+	background-color: #fffcd3;
+}
+
+.keys span.eval{
+	background-color: #bcffe2;
+}
+
+.top span.clear{
+	background-color: #ffa6a6;
+}
+
+
+/*hover*/
+.keys span:hover{
+	background-color: #5bde77;
+	box-shadow: 0px 3.5px #4e9d5f;
+	color: white;
+}
+
+.keys span.operator:hover{
+	background-color: #fff465;
+	box-shadow: 0px 3.5px #b9b363;
+	color: black;
+}
+
+.keys span.eval:hover{
+	background-color: #00e31b;
+	box-shadow: 0px 3.5px #35a742;
+	color: white;
+}
+
+.top span.clear:hover{
+	background-color: #ff2e2e;
+	box-shadow: 0px 3.5px #841919;
+	color: white;
+}
+
+
+/*active*/
+.keys span:active{
+	box-shadow: 0px 0 #4e9d5f;
+	color: white;
+	top: 3.5px;
+}
+
+.keys span.operator:active{
+	box-shadow: 0px 0 #b9b363;
+	color: black;
+	top: 3.5px;
+}
+
+.keys span.eval:active{
+	box-shadow: 0 0 #35a742;
+	color: white;
+	top: 3.5px;
+}
+
+.top span.clear:active{
+	box-shadow: 0px 0 #841919;
+	color: white;
+	top: 3.5px;
+}

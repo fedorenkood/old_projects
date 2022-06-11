@@ -1,0 +1,166 @@
+@import "compass";
+@import "theme_variables";
+
+
+$link-hover-color: 			#F0A30A;
+
+$theme-color-default: 		#F0A30A;
+$theme-color-secondary:		#63676D;
+
+
+$topbar-outside-bg: 		#F6F5F5;
+$topbar-bg: 				$topbar-outside-bg;
+$topbar-color: 				#9c9c9c;
+$topbar-color-hover: 		$link-hover-color;
+$topbar-link-color: 		#9c9c9c;
+$topbar-link-hover-color: 	$link-hover-color;
+$topbar-border:             1px solid #F6F5F5;
+
+$headermain-outside-bg: 	#fff;
+$headermain-bg: 			$headermain-outside-bg;
+$headermain-color: 			#6d6d6d;
+$headermain-color-hover: 		$link-hover-color;
+$headermain-link-hover-color: 	$link-hover-color;
+
+$mainnav-outside-border:	1px solid #111111;
+$mainnav-outside-bg: 		#111111;
+$mainnav-bg: 				#222222;
+$mainnav-color: 			#9c9c9c;
+$mainnav-color-hover: 		$link-hover-color;
+$mainnav-link-color: 		#222222;
+$mainnav-link-hover-color: 	$link-hover-color;
+
+$footer-top-outside-border: 	#333333;
+$footer-top-outside-bg: 		#222222;
+$footer-top-bg: 				$footer-top-outside-bg;
+$footer-top-color: 				#9c9c9c;
+$footer-top-color-hover: 		$link-hover-color;
+
+$footer-center-outside-border: 	#333333;
+$footer-center-outside-bg: 		#111111;
+$footer-center-bg: 				$footer-center-outside-bg;
+$footer-center-color: 			#9c9c9c;
+$footer-center-color-hover: 	$link-hover-color;
+
+$footer-nav-outside-bg: 		#222222;
+$footer-nav-bg: 				$footer-nav-outside-bg;
+$footer-nav-color: 				#9c9c9c;
+$footer-nav-color-hover: 		$link-hover-color;
+
+$cart-heading-color : 					$theme-color-default;
+
+$vertical-menu-link-hover-color:    	$theme-color-default;
+
+$block-module-heading-bg:				$theme-color-default;
+$block-module-border-color: 			$border-color;
+$block-module-content-bg:				$white;
+
+$block-module-highlighted-bg			: #3398df;
+$block-module-highlighted-border		: $base-border-color;
+
+$button-addtocart-bg:				$theme-color-default;
+$button-addtocart-bg-hover:         $theme-color-secondary;
+$button-addtocart-color:            $white;
+$button-addtocart-border-2:         $theme-color-secondary;
+$button-addtocart-border:         	$theme-color-default;
+$button-addtocart-hover-color:      $white;
+
+$product-name-color: 				#222222;
+$product-name-hover-color: 			$link-hover-color;
+$product-price-color: 				#cb2027;
+
+$breadcrumb-active-color: 			$link-hover-color;
+
+$nav-pills-active-link-hover-bg: 	$theme-color-default;
+
+$megamenu-link-color: 				#999999 ;
+$megamenu-link-hover-color:         $theme-color-default ;
+$megamenu-color: 				    #999999 ;
+$megamenu-caret:                    #999999 ;
+$megamenu-link-hover-border:        3px solid $theme-color-default ;
+
+$image-theme-base-path: "img/";
+
+@import "../_skin";
+
+.box-services { 
+  h4{
+    color: #9c9c9c;
+  }
+}
+#topbar{
+	 .btn-group{
+	 	color: $topbar-color;
+    	background: $topbar-bg;
+    	border: $topbar-border;
+    	&:hover{
+    		color: $theme-color-default;
+    	}
+    	.selected{
+    		color: $theme-color-default;
+    	}
+    } 
+    .compare-form{
+	    .bt_compare{
+	    	color: $topbar-color;
+	    	&:hover{
+	    		color: $theme-color-default;
+	    	}
+	    }
+    }  
+}
+.block .page-subheading {
+	color: $theme-color-default;	
+	&:after, &:before{
+		background: $theme-color-default;
+	}
+}
+
+/* Navigation */
+.sf-menu{
+	li{
+		a{
+			&:hover{
+				color: $theme-color-default !important;
+			}
+		}				
+	}
+}
+/* Search */
+.sf-search{
+	input[type="text"]{
+		border-left: 1px solid $theme-color-default !important;
+		color: $theme-color-default;
+		font-weight: 300;
+		@include placeholder($theme-color-default);
+	}
+	button{
+		span{
+			color: $theme-color-default;
+		}
+	}
+}
+
+/* Product */
+
+.product-block {
+	&:hover{
+		.quick-view{
+			background:rgba(247, 181, 61 , 0.8);			
+			&:hover{
+				background: rgba(99, 103, 109, 0.8);
+				border: 1px solid $theme-color-secondary;
+			}
+		}
+	}	
+}
+/* New Box */
+.product-label{
+	&.new-label{
+		background: $theme-color-secondary;
+	}	
+}
+
+.home-html{
+	border-color: $theme-color-default;
+}

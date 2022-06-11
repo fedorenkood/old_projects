@@ -1,0 +1,231 @@
+# Translation of Plugins - Llorix One Companion - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Llorix One Companion - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-02-06 20:37:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Llorix One Companion - Development (trunk)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://themeisle.com"
+msgstr "http://themeisle.com"
+
+#. Author of the plugin/theme
+msgid "Themeisle"
+msgstr "Themeisle"
+
+#. Description of the plugin/theme
+msgid "Add Our team, Our Services and Testimonials sections to Llorix One Lite theme."
+msgstr "Добавить в тему Llorix One Lite  блоки \"Наша команда\" \"Услуги\" и \"Отзывы\"."
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/Codeinwp/llorix-one-companion"
+msgstr "https://github.com/Codeinwp/llorix-one-companion"
+
+#. Plugin Name of the plugin/theme
+msgid "Llorix One Companion"
+msgstr "Llorix One Companion"
+
+#: sections/llorix_one_lite_our_team_section.php:75
+#: sections/llorix_one_lite_our_team_section.php:79
+#: sections/llorix_one_lite_our_team_section.php:177
+#: sections/llorix_one_lite_our_team_section.php:181
+#: sections/our-team-section.php:75 sections/our-team-section.php:79
+#: sections/our-team-section.php:177 sections/our-team-section.php:181
+msgid "Avatar"
+msgstr "аватарки"
+
+#: sections/llorix_one_lite_our_team_section.php:28
+#: sections/llorix_one_lite_our_team_section.php:31
+#: sections/llorix_one_lite_our_team_section.php:130
+#: sections/llorix_one_lite_our_team_section.php:133
+#: sections/our-team-section.php:28 sections/our-team-section.php:31
+#: sections/our-team-section.php:130 sections/our-team-section.php:133
+msgid "Team"
+msgstr "Команда"
+
+#: sections/llorix_one_lite_our_services_section.php:98
+#: sections/llorix_one_lite_our_services_section.php:102
+#: sections/llorix_one_lite_our_services_section.php:110
+#: sections/llorix_one_lite_our_services_section.php:228
+#: sections/llorix_one_lite_our_services_section.php:232
+#: sections/llorix_one_lite_our_services_section.php:240
+#: sections/our-services-section.php:98 sections/our-services-section.php:102
+#: sections/our-services-section.php:110 sections/our-services-section.php:228
+#: sections/our-services-section.php:232 sections/our-services-section.php:240
+msgid "Featured Image"
+msgstr "Рекомендуемые изображения"
+
+#: sections/llorix_one_lite_our_services_section.php:26
+#: sections/llorix_one_lite_our_services_section.php:156
+#: sections/our-services-section.php:26 sections/our-services-section.php:156
+msgid "Services"
+msgstr "Сервисы"
+
+#: sections/happy-customers-section.php:26
+#: sections/happy-customers-section.php:146
+#: sections/llorix_one_lite_happy_customers_section.php:26
+#: sections/llorix_one_lite_happy_customers_section.php:146
+msgid "Testimonials"
+msgstr "Отзывы"
+
+#: llorix-one-companion.php:90
+msgid "<i>Llorix One Companion</i> has been deactivated."
+msgstr "<i>Llorix One Companion</i> был деактивирован."
+
+#: llorix-one-companion.php:70
+msgid "You need to have <a href=\"https://wordpress.org/themes/llorix-one-lite/\" target=\"_blank\">Llorix One Lite</a> theme in order to use Llorix One Companion plugin."
+msgstr "Вы должны иметь тему  <a href=\"https://wordpress.org/themes/llorix-one-lite/\" target=\"_blank\">Llorix One Lite</a>  для того, чтобы использовать плагин Llorix One Companion."
+
+#: inc/settings.php:219
+msgid "Add new testimonial"
+msgstr "Добавить новый отзыв"
+
+#: inc/settings.php:212 inc/settings.php:213 inc/settings.php:214
+#: sections/happy-customers-section.php:14
+#: sections/happy-customers-section.php:15
+#: sections/happy-customers-section.php:16
+#: sections/llorix_one_lite_happy_customers_section.php:14
+#: sections/llorix_one_lite_happy_customers_section.php:15
+#: sections/llorix_one_lite_happy_customers_section.php:16
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo. Fusce malesuada vulputate faucibus. Integer in hendrerit nisi. Praesent a hendrerit urna. In non imperdiet elit, sed molestie odio. Fusce ac metus non purus sollicitudin laoreet."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo. Fusce malesuada vulputate faucibus. Integer in hendrerit nisi. Praesent a hendrerit urna. In non imperdiet elit, sed molestie odio. Fusce ac metus non purus sollicitudin laoreet."
+
+#: inc/settings.php:212 inc/settings.php:213 inc/settings.php:214
+#: sections/happy-customers-section.php:14
+#: sections/happy-customers-section.php:15
+#: sections/happy-customers-section.php:16
+#: sections/llorix_one_lite_happy_customers_section.php:14
+#: sections/llorix_one_lite_happy_customers_section.php:15
+#: sections/llorix_one_lite_happy_customers_section.php:16
+msgid "Lorem ipsum"
+msgstr "Lorem ipsum"
+
+#: inc/settings.php:212 inc/settings.php:213 inc/settings.php:214
+#: sections/happy-customers-section.php:14
+#: sections/happy-customers-section.php:15
+#: sections/happy-customers-section.php:16
+#: sections/llorix_one_lite_happy_customers_section.php:14
+#: sections/llorix_one_lite_happy_customers_section.php:15
+#: sections/llorix_one_lite_happy_customers_section.php:16
+msgid "Happy Customer"
+msgstr "Довольные клиенты"
+
+#: inc/settings.php:184 sections/happy-customers-section.php:9
+#: sections/llorix_one_lite_happy_customers_section.php:9
+msgid "Happy Customers"
+msgstr "Довольные клиенты"
+
+#: inc/settings.php:177
+msgid "Disable the Testimonials section?"
+msgstr "Отключить блок Отзывы?"
+
+#: inc/settings.php:163
+msgid "Testimonials section"
+msgstr "Блок отзывы"
+
+#: inc/settings.php:150
+msgid "Add new team member"
+msgstr "Добавить нового члена команды"
+
+#: inc/settings.php:145 sections/llorix_one_lite_our_team_section.php:17
+#: sections/our-team-section.php:17
+msgid "Business Development"
+msgstr "Развитие бизнеса"
+
+#: inc/settings.php:145 sections/llorix_one_lite_our_team_section.php:17
+#: sections/our-team-section.php:17
+msgid "Linda Guthrie"
+msgstr "Линда Гатри"
+
+#: inc/settings.php:144 sections/llorix_one_lite_our_team_section.php:16
+#: sections/our-team-section.php:16
+msgid "Account Manager"
+msgstr "Менеджер по работе с клиентами"
+
+#: inc/settings.php:144 sections/llorix_one_lite_our_team_section.php:16
+#: sections/our-team-section.php:16
+msgid "Tonya Garcia"
+msgstr "Тоня Гарсия"
+
+#: inc/settings.php:143 sections/llorix_one_lite_our_team_section.php:15
+#: sections/our-team-section.php:15
+msgid "Founder & CEO"
+msgstr "Основатель и генеральный директор"
+
+#: inc/settings.php:143 sections/llorix_one_lite_our_team_section.php:15
+#: sections/our-team-section.php:15
+msgid "Albert Jacobs"
+msgstr "Альберт Якобс"
+
+#: inc/settings.php:133
+msgid "Team Background"
+msgstr "Фоновый рисунок блока Наша комманда"
+
+#: inc/settings.php:105 sections/llorix_one_lite_our_team_section.php:9
+#: sections/our-team-section.php:9
+msgid "Our Team"
+msgstr "Наша команда"
+
+#: inc/settings.php:98
+msgid "Disable the Team section?"
+msgstr "Отключить блок Наша команда?"
+
+#: inc/settings.php:84
+msgid "Team section"
+msgstr "Блок Наша команда"
+
+#: inc/settings.php:69
+msgid "Add new service box"
+msgstr "Добавить бокс услуг"
+
+#: inc/settings.php:62 inc/settings.php:63 inc/settings.php:64
+#: sections/llorix_one_lite_our_services_section.php:14
+#: sections/llorix_one_lite_our_services_section.php:15
+#: sections/llorix_one_lite_our_services_section.php:16
+#: sections/our-services-section.php:14 sections/our-services-section.php:15
+#: sections/our-services-section.php:16
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+
+#: inc/settings.php:62 inc/settings.php:63 inc/settings.php:64
+#: sections/llorix_one_lite_our_services_section.php:14
+#: sections/llorix_one_lite_our_services_section.php:15
+#: sections/llorix_one_lite_our_services_section.php:16
+#: sections/our-services-section.php:14 sections/our-services-section.php:15
+#: sections/our-services-section.php:16
+msgid "Lorem Ipsum"
+msgstr "Lorem Ipsum"
+
+#: inc/settings.php:51 inc/settings.php:122 inc/settings.php:201
+msgid "Subtitle"
+msgstr "Подзаголовок"
+
+#: inc/settings.php:46 inc/settings.php:117
+#: sections/llorix_one_lite_our_services_section.php:10
+#: sections/llorix_one_lite_our_team_section.php:11
+#: sections/our-services-section.php:10 sections/our-team-section.php:11
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+#: inc/settings.php:39 inc/settings.php:110 inc/settings.php:189
+msgid "Main title"
+msgstr "Главный заголовок"
+
+#: inc/settings.php:34 sections/llorix_one_lite_our_services_section.php:9
+#: sections/our-services-section.php:9
+msgid "Our Services"
+msgstr "Наши услуги"
+
+#: inc/settings.php:27
+msgid "Disable the Services section?"
+msgstr "Отключить блок Наши услуги?"
+
+#: inc/settings.php:13
+msgid "Services section"
+msgstr "Блок Наши услуги"

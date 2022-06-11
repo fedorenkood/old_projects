@@ -1,0 +1,57 @@
+/*
+Featured
+=========================== */
+.main-form{
+	background: #000;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+#toTop{
+    background-color: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+/*
+Navbar
+=========================== */
+nav.navbar{
+    border-bottom: solid 1px #f0f0f0;
+}
+
+ul.nav.navbar-nav li a{
+    padding-top: 50px;
+}
+
+.top-nav-collapse ul.nav.navbar-nav li a{
+   padding-top: 35px;
+}
+
+/*
+Form Control
+=========================== */
+.form-control{
+    padding-top: 25px;
+}
+
+/*
+Hover Effect
+=========================== */
+.img-hover > .dh-overlay {
+    padding: 0px;
+}
+
+/*
+Masonry
+=========================== */
+.masonry .grid-item{
+    margin-left: -0.1px;
+}
+
+/*
+Background Content
+=========================== */
+.bg-content{
+    background-position: center 1px; 
+}

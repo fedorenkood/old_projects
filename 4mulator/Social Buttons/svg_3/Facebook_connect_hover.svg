@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg22"
+   width="713"
+   height="332"
+   viewBox="0 0 713.33331 278.66666"
+   sodipodi:docname="Facebook_connect_hover.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata28">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs26" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview24"
+     showgrid="false"
+     inkscape:zoom="1.9009346"
+     inkscape:cx="150.77807"
+     inkscape:cy="108.70142"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg22" />
+  <path
+     cx="50%"
+     cy="50%"
+     style="fill:#ffffff;stroke-width:1.33407187"
+     d="M 0,139.33333 V 27.280973 l 312.6255,0.349901 312.6255,0.349902 9.34206,3.153599 c 37.62899,12.70241 64.00163,39.29425 75.61199,76.240435 2.75238,8.75863 3.12826,12.59858 3.12826,31.95852 0,19.35997 -0.37588,23.19991 -3.12826,31.95855 -11.61036,36.94617 -37.983,63.53801 -75.61199,76.24042 l -9.34206,3.15359 -312.6255,0.3499 L 0,251.38569 Z m 112.10477,46.67473 V 152.66897 H 102.09541 92.086059 v -10.00172 -10.00172 h 9.868791 9.86878 l 0.4755,-15.66938 c 0.40262,-13.26762 0.92143,-16.38479 3.38483,-20.336862 5.07084,-8.13516 9.69728,-9.89743 27.44981,-10.45601 l 15.68132,-0.49341 v 10.14219 10.142182 h -6.10828 c -4.9718,0 -6.83407,0.72526 -10.00934,3.89813 -3.57675,3.574 -3.9011,4.68276 -3.9011,13.33563 v 9.43753 h 13.4905 c 13.31888,0 13.48111,0.0382 12.75313,3.00051 -0.40554,1.65029 -1.14858,6.15106 -1.6512,10.00173 l -0.91384,7.0012 h -11.83928 -11.83931 v 33.33909 33.33909 h 20.75228 c 23.0136,0 27.02846,-1.04387 30.60648,-7.95774 3.03655,-5.86754 3.03655,-138.244612 0,-144.112161 -4.16729,-8.052529 -3.23749,-7.95773 -78.05036,-7.95773 -74.812873,0 -73.883076,-0.09481 -78.050375,7.95773 -3.031714,5.858219 -3.037056,138.243631 -0.0059,144.100941 3.864222,7.46689 6.017703,7.85703 43.690736,7.91555 l 34.365539,0.0534 z"
+     id="path32"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccscscsccccccccccccscscccscscscccccccsccsscscc" />
+</svg>

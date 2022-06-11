@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Adibass</title>
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/fonts.css" />
+<link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="fancybox/lib/jquery-1.10.1.min.js"></script>
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox8cbb.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox8cbb.css?v=2.1.5" media="screen" />
+
+    <!-- Add Button helper (this is optional) -->
+    <link rel="stylesheet" type="text/css" href="fancybox/source/helpers/jquery.fancybox-buttons3447.css?v=1.0.5" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons3447.js?v=1.0.5"></script>
+
+    <!-- Add Thumbnail helper (this is optional) -->
+    <link rel="stylesheet" type="text/css" href="fancybox/source/helpers/jquery.fancybox-thumbsf2ad.css?v=1.0.7" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbsf2ad.js?v=1.0.7"></script>
+
+    <!-- Add Media helper (this is optional) -->
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-mediac924.js?v=1.0.6"></script>
+
+<script type="text/javascript" src="js/custom.js"></script>
+
+<link rel="stylesheet" href="assets/countdown/jquery.countdown.css" />
+<script src="assets/countdown/jquery.countdown.js"></script>
+
+<script type="text/javascript" src="js/jquery.maskedinput.js"></script>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        var IE = /*@cc_on ! @*/ false;
+        if (!IE) {
+            $("#myphone").mask("+38"+"(999) 999-99-99");
+            $("#myphone1").mask("+38"+"(999) 999-99-99");
+            $("#myphone2").mask("+38"+"(999) 999-99-99");
+            $("#myphone3").mask("+38"+"(999) 999-99-99");
+        }
+    });
+</script>
+
+<script type="text/javascript">
+        $(document).ready(function() {
+
+            $(".fancybox-effects-d").fancybox({
+                padding: 0,
+
+                openEffect : 'elastic',
+                openSpeed  : 150,
+
+                closeEffect : 'elastic',
+                closeSpeed  : 150,
+
+                closeClick : true,
+
+                helpers : {
+                    overlay : null
+                }
+            });
+
+
+        });
+    </script>
+
+
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+</head>
+<body>
+
+    <div class="header">
+        <div class="wrap">
+            <div class="logo">
+                <a href="#"><img src="images/logo2.png" /></a>
+            </div>
+
+            <div class="email-container">
+                <p class="email"><a href="mailto:adibass.kiev@gmail.com">adibass.kiev@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-container">
+        <div class="wrap">
+            <h1> </h1>
+
+            <div class="img-box">
+
+                <div style="position: absolute; width: 180px; height: 134px; background: url(images/.png); z-index: 1000; margin-top: -40px; margin-left: -10px;"></div>
+
+                <a class="fancybox-effects-d" href="images/ck.png"><img style="margin: 0 0 0 50px;" src="images/ck.png" height="300" alt="" /></a>
+                
+            </div>
+
+            <div class="summ-box">
+                <p class="sm">100<span style="font-size: 40px;">ГРН.</span> </p>
+                
+                <p class="old-summ" style="font-size: 28px;"><span style="font-size: 18px;">Вместо </span>350<span style="font-size: 18px;"> ГРН.</span>
+                </p>
+            </div>
+
+            <div class="demand-box">
+                    <h2>Заполните заявку</h2><form action="mail.php" method="post" id="form">
+                    <input class="mynameinput" name="name" id="myname" type="text" placeholder="ФИО" value="" onfocus="clearText(this)" onblur="clearText(this)" />
+                    <input class="myphoneinput" name="phone" id="myphone" type="text" placeholder="Ваш номер телефона"  value="Ваш телефон" onfocus="clearText(this)" onblur="clearText(this)" />
+                    <input id="email" type="hidden" />
+                    <input name="product" id="product" value="ck" type="hidden" />
+                    <input name="mytext" id="mytext" type="text" placeholder="Отделение Новой Почты" value="" onfocus="clearText(this)" onblur="clearText(this)" />
+                    <input id="mysend" type="button" value="Заказать сейчас"  /></form>
+            </div>
+
+            
+        </div>
+    </div>
+
+
+
+    <a name="catalog"></a>
+
+    <div class="order-container">
+
+        <div class="box-block">
+
+
+            <h2 style="margin-bottom:35px;">Выбор цвета</h2>
+
+            <div class="wrap">
+                <a class="fancybox-effects-d" href="images/ck.png"><img style="border-radius: 10px; border: 3px solid #122f38;"  src="images/ck.png" height="235" alt="" class="prev" /></a>
+
+                <div class="order-info">
+                    <h3>Adidas</h3>
+                    <div style="font-size: 18px;">Colour <strong>Black</strong> </div>
+                    <p>100<strong style="font-size: 40px;">ГРН.</strong></p>
+                    <span class="order-infos">ВМЕСТО <s>350 ГРН.</s></span>
+                </div>
+
+                <div class="order-form" id="order-form1">
+                    <h2>Заказать</h2><form action="mail.php" method="post" id="form1">
+                    <input class="mynameinput" name="name" id="myname1" type="text" placeholder="ФИО" value="" onfocus="clearText(this)" onblur="clearText(this)" />
+                    <input class="myphoneinput" name="phone" id="myphone1" type="text" placeholder="Ваш телефон..." value="Ваш номер телефона..." onfocus="clearText(this)" onblur="clearText(this)" />
+                    <input id="email1" class="email" type="hidden" />
+                    <input name="product" id="product1" value="Товар 1: " type="hidden" />
+                    <input name="mytext" id="mytext1" type="text" placeholder="Отделение Новой Почты" value="" onfocus="clearText(this)" onblur="clearText(this)" />
+                    <input id="mysend1" type="button" value="Заказать сейчас" /></form>
+            </div>
+            </div>
+        </div><!-- end_box-block -->
+
+        <div class="box-block">
+            <div class="wrap">
+                <a class="fancybox-effects-d" href="images/ck.png"><img style="border-radius: 10px; border: 3px solid #122f38;" src="images/ck2.png" height="235" alt="" class="prev" /></a>
+
+                <div class="order-info">
+                    <h3>Adidas</h3>
+                    <div style="font-size: 18px;">Colour <strong>white</strong> </div>
+                    <p>100<strong style="font-size: 40px;">ГРН.</strong></p>
+                    <span class="order-infos">ВМЕСТО <s>350 ГРН.</s></span>
+                </div>
+
+                <div class="order-form" id="order-form2">
+                    <h2>Заказать</h2><form action="mail.php" method="post" id="form2">
+                    <input class="mynameinput" name="name" id="myname2" type="text" placeholder="ФИО" value="" onfocus="clearText(this)" onblur="clearText(this)" />
+                    <input class="myphoneinput" name="phone" id="myphone2" type="text" placeholder="Ваш номер телефона" value="Ваш номер телефона..." onfocus="clearText(this)" onblur="clearText(this)" />
+                    <input id="email2" class="email" type="hidden" />
+                    <input name="product" id="product2" value="Товар 2: " type="hidden" />
+                    <input name="mytext" id="mytext2" type="text" placeholder="Отделение Новой Почты" value="" onfocus="clearText(this)" onblur="clearText(this)" />
+                    <input id="mysend2" type="button" value="Заказать сейчас" /></form>
+            </div>
+            </div>
+        </div><!-- end_box-block -->
+
+       
+
+    </div><!-- end_order-container -->
+
+    <div class="myfaq">
+
+        <h2 style="margin-bottom:20px;">Часто задаваемые вопросы</h2>
+
+        <div class="myfaq-item">
+            <div class="q">
+                Могу ли я оплатить наушники при получении?
+            </div>
+            <div class="a">
+                Да, все посылки отправляются наложенным платежом. После доставки заказа в ваш город вас оповестят о их прибытии. Вы можете оплатить и забрать заказ в своем отделении Новой Почты.
+            </div>
+        </div><!-- end_myfaq-item -->
+
+        <div class="myfaq-item">
+            <div class="q">
+                Каким образом осуществляется доставка наушников?
+            </div>
+            <div class="a">
+                Доставка осуществляется Новой Почтой.
+            </div> 
+        </div><!-- end_myfaq-item -->
+
+        <div class="myfaq-item">
+            <div class="q">
+                Когда мой заказ будет доставлен?
+            </div>
+            <div class="a">
+                После подтверждения заказа наши специалисты собирают заказ и отправляют его Новой Почтой. Обычно заказы доставляются в течении 2-5 дней.
+            </div>
+        </div><!-- end_myfaq-item -->
+
+        <div class="myfaq-item">
+            <div class="q">
+                В каких городах Вы работаете?
+            </div>
+            <div class="a">
+                Мы работаем со всеми городами Украины.
+            </div>
+        </div><!-- end_myfaq-item -->
+
+        <div class="myfaq-item">
+            <div class="q">
+                
+            </div>
+            <div class="a">
+                         </div>
+        </div><!-- end_myfaq-item -->
+
+    </div><!-- end_myfaq -->
+
+    <div class="wework">
+        <div class="wrap">
+            <h2 style="margin-top:35px; margin-bottom:-20px;">Как мы работаем?</h2>
+
+            <div class="wework-box">
+                <p>Оставляете заявку на сайте<br /><br /></p>
+                <img src="images/zakaz.png" width="166" height="166" alt="" />
+            </div>
+
+            <div class="wework-box">
+                <p>Наши менеджеры связываются с Вами для подтверждения заказа</p>
+                <img src="images/wework-img2.png" width="166" height="166" alt="" />
+            </div>
+
+            <div class="wework-box">
+                <p>Вы получаете товар и оплачиваете</p>
+                <img src="images/posilka.jpg" width="166" height="166" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <a class="vmodel" href="#catalog">Выбрать наушники</a>
+
+    <div class="resporence-container">
+        <div class="wrap">
+            <div class="text"></div>
+        </div>
+    </div>
+
+<div id="footer">
+    <div class="wrap">
+        
+    </div>
+</div>
+</body>
+</html>

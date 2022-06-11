@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Responsive HTML5 website landing page for developers and startups">
+        <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="assets/css/registration.css">
+        <title>ETC Sign-Up Form</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    </head>
+    <body>
+        <div class="form">
+            <div class="tab-content">
+                <div id="signup">
+                    <div class="col-md-12 col-sm-12 col-xs-12 row">
+                        <div class="col-md-6 col-sm-6 col-xs-6 regist" >
+                            <img class="logo-icon" src="assets/images/logo_main/etc_light.svg">
+                            <h1 class="reg"><b>Реєстрація</b></h1>
+                        </div>
+                    </div>
+                    <div id="reg-response"></div>
+                    <form id="form-box"  method="post" enctype="multipart/form-data">
+                        <h4>Увага! Велике прохання заповнювати всі дані Українською мовою. Також, якщо Вам не виповнились повні 14 років, анкету повинен заповнювати хтось із дорослих: батьки або вчитель. <i>*</i></h4>
+                        <h4>Капітан команди</h4>
+                        <div class="field-wrap">
+                            <label>
+                            ПІБ капітана<span class="req">*</span>
+                            </label>
+                            <input type="text" id="reg-lead" name="lead"/>
+                        </div>
+                        <div class="field-wrap">
+                            <label>
+                            Назва навчального закладу<span class="req">*</span>
+                            </label>
+                            <input type="text" id="reg-school" name="school"/>
+                        </div>
+                        <div class="field-wrap">
+                            <h4>Вибір групи <i>*</i> </h4>
+                            <select class="grypp" id="reg-grade" name="grade">
+                                <option class="gr" value="1-4">1-4 клас</option>
+                                <option class="gr" value="5-7">5-7 клас</option>
+                                <option class="gr" value="8-9">8-9 клас</option>
+                            </select>
+                        </div>
+                        <h4>Номер телефонy +38 (xxx) xxx-xxxx <i>*</i></h4>
+                        <div class="field-wrap">
+                            <!-- <label id="phone">
+                            (___) ___-____<span class="req">*</span>
+                            </label> -->
+                            <input type="text" id="reg-phone" name="phone" data-inputmask="'mask': '+38 (999) 999-9999'"/>
+                        </div>
+                        <div class="field-wrap">
+                            <label>
+                            Email<span class="req">*</span>
+                            </label>
+                            <input type="email" id="reg-email" name="email"/>
+                        </div>
+                        <h4>Посилання на GoogleDrive із архівом пробного завдання. Архів з роботою слід називати ім'ям конкурсанта. Приклад: Івахін_Іван.zip<i>*</i></h4>
+
+                        <!-- <p><input type="file" name="file" id="reg-file"></p> -->
+                        <div class="field-wrap">
+                            <label>
+                            Пробне завдання<span class="req">*</span>
+                            </label>
+                            <input type="text" id="reg-task" name="task">
+                        </div>
+                       
+                        <hr color= "white" />
+                        <h4>Учасники</h4>
+                        <div class="field-wrap">
+                            <label>
+                            ПІБ першого учасника<span class="req">*</span>
+                            </label>
+                            <input type="text" id="reg-first" name="first"/>
+                        </div>
+                        <div class="field-wrap">
+                            <label>
+                            ПІБ другого учасника<span class="req">*</span>
+                            </label>
+                            <input type="text" id="reg-second" name="second"/>
+                        </div>
+                        <div class="field-wrap">
+                            <label>
+                            ПІБ третього учасника
+                            </label>
+                            <input type="text" id="reg-third" name="third"/>
+                        </div>
+                        <div class="field-wrap hidden">
+                            <label>
+                            ФИО четвертого участника
+                            </label>
+                            <input type="text" id="reg-fourth"  name="fourth"/>
+                        </div>
+                        <button type="submit" class="button button-block" id="reg-submit" />Зареєструватися!</button>
+                        <p class="res">Поля з * повинні бути заповнені обов'язково!</p>
+                    </form>
+                </div>
+                <div id="login">   
+                </div>
+            </div>
+        </div>
+        <!-- tab-content -->
+        </div> <!-- /form -->
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type='text/javascript' src="https://rawgit.com/RobinHerbots/jquery.inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
+        <script  src="assets/js/index.js"></script>
+       
+    </body>
+</html>

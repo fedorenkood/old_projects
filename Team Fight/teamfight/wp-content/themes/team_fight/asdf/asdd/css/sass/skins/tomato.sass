@@ -1,0 +1,262 @@
+@import "../bourbon/bourbon"
+
+$color: #ff4800 //Theme skin
+$color_01: rgba(255, 71, 0, 0.1)
+$color_025: rgba(255, 71, 0, 0.25)
+$color_04: rgba(255, 71, 0, 0.4)
+$color_05: rgba(255, 71, 0, 0.5)
+$color_06: rgba(255, 71, 0, 0.6)
+$color_07: rgba(255, 71, 0, 0.7)
+$text_color: rgba(34, 34, 34, 1)
+$main_color: #222
+$bg_light: #FAFAFA
+$bg_li_ul: rgb(229, 229, 229)
+
+$color_2: #222222 // Black
+$hov_el_01: rgba($color_2, 0.1)
+$hov_el_025: rgba($color_2, 0.25)
+$hov_el_04: rgba($color_2, 0.4)
+$hov_el_06: rgba($color_2, 0.6)
+$hov_el_07: rgba($color_2, 0.7)
+$offline: rgba($color_2, 0.8)
+
+$color_3: #f5f9fc
+$white: $color_3
+$white_035: rgba($color_3, 0.35)
+$white_08: rgba($color_3, 0.8)
+
+$color_4: #8fa5ce // CS:GO Rank Color
+$color_4_04: rgba(#8fa5ce, 0.4)
+$color_4_06: rgba(#8fa5ce, 0.6)
+
+$red: #ff4700
+$green: #06a606
+$transparent: transparent
+$place_hol_col: #ddd
+
+$find_btn: rgba(248, 99, 43, 1)
+$find_btn_08: rgba(248, 99, 43, 0.8)
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+body
+	color: $main_color
+	+kerning(1)
+
+a
+	color: $text_color
+
+.mnu_line_btm a
+	color: $white
+	&:hover
+		color: $red
+
+p
+	color: $text_color
+
+input
+	color: $white
+	background-color: $transparent
+
+.mfp-close
+	color: $offline
+
+.color_element
+	color: $color
+.color_bg
+	background-color: $color
+.color_border
+	border-color: $color
+
+header
+	background-color: $white
+
+.modal_content
+	background-color: #f5f9fc
+
+.loader .loader_inner
+	background-color: #fff
+
+li:hover
+	background-color: $hov_el_01
+	ul 
+		background-color: $bg_li_ul
+		li:hover
+			background-color: $hov_el_025
+
+li.prem a
+	color: $color
+li.prem:hover
+	background-color: $color_01
+
+.game_card
+	background-color: rgba(149, 148, 148, 0.6)
+
+.btn
+	background-color: $find_btn
+	color: $white
+	&:hover
+		background-color: $find_btn_08
+
+.prof_stats .premium
+	background-color: $find_btn
+	&:hover
+		background-color: $find_btn_08
+
+.stopwatch:hover
+	background-color: $find_btn
+
+.user_stats_table
+	background-color: $hov_el_04
+	color: $white
+	.user_st_name
+		background-color: $hov_el_025
+
+select 
+	background-color: $transparent
+	option
+		color: black
+
+.on
+	color: $color
+.off
+	color: $offline
+
+#error
+	background-color: $red
+#complete
+	background-color: $green
+
+.status_print_box
+	background-color: $color_06
+
+.save_btn
+	background: $find_btn
+	color: $white
+	&:hover
+		background-color: $find_btn_08
+
+.save_stats_btn
+	background-color: $color_05
+	&:hover
+		background-color: $color_07
+
+.num_box_new
+	background-color: $find_btn
+	p
+		color: $white
+	input:hover
+		background-color: rgb(240, 121, 75)
+
+.nickname a
+	color: rgb(248, 99, 43)
+
+.massage p
+	color: $white
+
+.message_time 
+	background-color: $hov_el_07
+	color: $white
+
+.right .num_box_new .selected
+	background-color: $white_035
+
+
+
+.dropdown 
+	dd ul 
+		background-color: $color_4_04
+		li a:hover 
+			background-color: $color_4_06
+	dt a 
+		background-color: $color_4_04
+		.arr_down
+			background-color: $color_4_04
+	a 
+		color: rgba(54, 94, 167, 0.8)
+		&:visited 
+			color: rgba(54, 94, 167, 1)
+		&:hover 
+			color: rgba(54, 94, 167, 1)
+
+
+.mess_general 
+	background: #e8e8e8
+	.message_time 
+		background: $hov_el_07
+		color: $white
+
+.personal_mess .message_time:after
+	border-left-color: $hov_el_07
+
+.mess
+	background-color: #feefe9
+	.message_time :after
+		border-right-color: $hov_el_07
+
+.chat_timer_box
+	color: $white
+
+.mate_vol
+	background: $hov_el_04
+	color: #e8e8e8
+
+.tools_box
+	background: $hov_el_04
+	color: #e8e8e8
+	&:hover
+		background: $hov_el_06
+		color: #f0f0f0
+
+.mates_box
+	background-color: $white
+	.chat_img 
+		&:hover
+			background-color: #e8e8e8
+
+#message_form
+	background: $white
+
+#message_box
+	background-color: $white
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-input-placeholder  /* WebKit, Blink, Edge */
+	color: $place_hol_col
+
+::-moz-placeholder  /* Mozilla Firefox 4 to 18 */
+	color: $place_hol_col
+	opacity: 1
+
+::-moz-placeholder  /* Mozilla Firefox 19+ */
+	color: $place_hol_col
+	opacity: 1
+
+::-ms-input-placeholder  /* Internet Explorer 10-11 */
+	color: $place_hol_col
+::-ms-input-placeholder  /* Microsoft Edge */
+	color: $place_hol_col

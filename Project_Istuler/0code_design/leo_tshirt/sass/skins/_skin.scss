@@ -1,0 +1,352 @@
+
+//base
+a{
+    color: $base-text-color;
+    &:hover,
+    &:focus {
+        color: $link-hover-color;
+    }
+}
+
+// form
+.btn-outline-inverse{
+  @include button-variant-outline($btn-default-color, $theme-color-default, $theme-color-default, $white, $theme-color-secondary , $theme-color-secondary );
+} 
+.btn-outline{
+  @include button-variant-outline(  $white, $theme-color-secondary , $theme-color-secondary , $btn-default-color, $theme-color-default, $theme-color-default );
+} 
+
+//block
+.#{$block-selector} { 
+    .#{$block-heading-selector}{
+        color: $white;
+        a{
+            color: $white;
+        }         
+        background:$block-module-heading-bg;  
+        border: $block-module-heading-border; 
+        
+    }
+    .#{$block-content-selector} { 
+        background: $block-module-content-bg;             
+    }
+}
+
+// Contextual variations
+.#{$block-prefix}-default {
+  @include block-variant($panel-default-border, $panel-default-text, $panel-default-heading-bg, $panel-default-border);
+}
+.#{$block-prefix}-primary {
+  @include block-variant($panel-primary-border, $panel-primary-text, $panel-primary-heading-bg, $panel-primary-border);
+}
+.#{$block-prefix}-success {
+  @include block-variant($panel-success-border, $panel-success-text, $panel-success-heading-bg, $panel-success-border);
+}
+.#{$block-prefix}-info {
+  @include block-variant($panel-info-border, $panel-info-text, $panel-info-heading-bg, $panel-info-border);
+}
+.#{$block-prefix}-warning {
+  @include block-variant($panel-warning-border, $panel-warning-text, $panel-warning-heading-bg, $panel-warning-border);
+}
+.#{$block-prefix}-danger {
+  @include block-variant($panel-danger-border, $panel-danger-text, $panel-danger-heading-bg, $panel-danger-border);
+}
+
+
+// block-variant($border, $heading-text-color, $heading-bg-color, $heading-border)
+.#{$block-prefix}-highlighted {
+    @include block-variant($block-module-highlighted-border, $white, $block-module-highlighted-bg, $block-module-highlighted-bg);
+}
+
+.#{$block-content-selector}{
+    .carousel-control{
+        color: $base-text-color;
+        &:hover{
+            color: $theme-color-default;
+        }
+    }
+}
+
+
+//layout
+#topbar  { 
+  border-bottom: $topbar-border; 
+  background: $topbar-outside-bg;
+  .container > .inner{
+      @include container-layout-variant( $topbar-color, $topbar-bg, $topbar-link-color, $topbar-link-hover-color ); 
+  }    
+  .links-outline{
+      a{ color: $topbar-link-hover-color; }
+  }  
+  .btn-group{
+    .quick-setting{
+      a{
+        color: $base-text-color;
+        &:hover{
+            color: $link-hover-color;
+        }
+      }
+    }
+  }
+}
+
+#header-main{
+   background: $headermain-outside-bg;
+   .container > .inner{
+        @include container-layout-variant($headermain-color, $headermain-bg, $headermain-color, $headermain-color-hover );   
+   }
+}
+
+##{$app-brand-prefix}-mainnav {
+    background: $mainnav-outside-bg;
+    border-top: $mainnav-outside-border;
+    border-bottom: $mainnav-outside-border;
+    .container > .inner{
+        @include container-layout-variant($mainnav-color, $mainnav-bg, $mainnav-color, $mainnav-color-hover);   
+        
+   }
+}
+
+.footer-top{
+    background: $footer-top-outside-bg;
+    border-bottom: $footer-top-outside-border;
+    .container > .inner{
+        @include container-layout-variant($footer-top-color, $footer-top-bg, $footer-top-color, $footer-top-color-hover ); 
+        
+    }
+   
+}
+.footer-center{
+    background: $footer-center-outside-bg;
+    border-bottom: $footer-center-outside-border;
+   .container > .inner{
+    @include container-layout-variant($footer-center-color, $footer-center-bg, $footer-center-color, $footer-center-color-hover );   
+    
+   }
+}   
+.footer-bottom{
+    background: $footer-bottom-outside-bg;
+   .container > .inner{
+    @include container-layout-variant($footer-bottom-color, $footer-bottom-bg, $footer-bottom-color, $footer-bottom-color-hover );   
+    
+   }
+}
+
+.footer-nav{ // copyright
+    background: $footer-nav-outside-bg;
+   .container > .inner{
+    @include container-layout-variant($footer-nav-color, $footer-nav-bg, $footer-nav-color, $footer-nav-color-hover );   
+    
+   }
+}
+
+// prestashop module
+.bullet.bullet-icon{
+  li a{   
+    &:hover:before{
+      background: $footer-center-color-hover;
+    }
+  }
+}
+#footer{
+  #newsletter_block_left{
+    &.block{    
+      .title_block{
+          color: $footer-top-color-hover;          
+      }
+    }
+  }
+}
+
+.box-services { 
+  &:hover{    
+    h4,
+    .iconbox{
+      color: $link-hover-color;
+    }
+  }
+}
+
+// Tab nav pills
+.block{
+  .nav-tabs {
+    > li.active {
+      > a{
+		&,
+		&:hover,
+		&:focus {
+			background-color: transparent;
+		}
+        &:before{
+          color: $nav-pills-active-link-hover-bg;
+        }
+      }    
+    }
+  }  
+}
+
+//prestashop page
+.content_sortPagiBar{
+	.display{
+    .selected{
+  		a{		
+  			
+  			    background-color: $theme-color-default;
+  			    border: 1px solid $theme-color-default; 
+  			    .fa {
+  			         color: $white; 
+  			    }   
+  		}
+    }
+	}
+} 
+
+// BREADCRUMB
+.breadcrumb {
+	color: $breadcrumb-active-color;       
+	a {
+	  &:hover {
+	      color: $breadcrumb-active-color;
+	  }
+	}
+
+}
+
+// module
+#cart{        
+    h4{
+        color: $cart-heading-color;
+    }
+}
+
+//menu
+div.verticalmenu{		
+	.navbar-nav{						
+		> li{
+			> a{	
+				&:hover,&:focus{
+					.menu-title{
+						color: $vertical-menu-link-hover-color;
+					}					
+					color: $vertical-menu-link-hover-color;
+				}				
+
+			}
+			&:hover{
+				> a{
+					.caret{
+						border-top-color: $theme-color-default;
+					}
+				}					
+			}
+		}
+	}
+  ul{
+    li{
+      a{
+        &:hover,&:focus{
+          .menu-title{
+            color: $vertical-menu-link-hover-color;
+          }         
+          color: $vertical-menu-link-hover-color;
+        }
+      }
+    }
+  } 
+}
+
+// product
+.ajax_add_to_cart_button{
+    background: $button-addtocart-bg;
+    color: $button-addtocart-color;
+    border: 1px solid $button-addtocart-border;
+    &:hover{
+        color: $button-addtocart-hover-color;
+        background: $button-addtocart-bg-hover;
+        border: 1px solid $button-addtocart-border-2;
+    }
+
+}
+
+.price {        
+    color: $product-price-color;      
+}
+
+.product-block{
+	.name{
+		a {
+        color: $product-name-color;                                     
+        &:hover{
+            color: $product-name-hover-color;
+        }
+      }
+	}
+  .functional-buttons{ 
+        .wishlist{
+            .btn{                                                
+            }
+        }
+        
+        &:hover{
+            > div{
+                &:nth-child(2){
+                    .btn{background: $button-addtocart-bg;border-color: $button-addtocart-bg;}
+                    &:hover{
+                      .btn{background: $button-addtocart-bg-hover; border-color: $button-addtocart-bg-hover;}
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.#{$app-brand-prefix}-megamenu {  
+  /* menu level 1 */
+  .navbar-nav{
+    > li {
+     
+      > a{  
+        color: $megamenu-link-color!important;
+        &:hover,&:focus,&:active{         
+          color: $megamenu-link-hover-color!important;        
+          background-color: $megamenu-link-bg-hover-color;
+          border-bottom: $megamenu-link-hover-border;
+        }
+      } 
+      &:active{
+        > a{color: $megamenu-link-hover-color;}
+      }
+      > .caret{
+        color:$megamenu-link-color  ;
+      } 
+      &:hover > .caret, &:active > .caret{
+        color: $megamenu-link-hover-color;
+      }
+    }     
+  }
+}
+
+#footer{
+  .block{
+    .title_block{
+      color: $theme-color-default;
+      a{
+        color: $theme-color-default;
+      }
+    }
+  }
+  #social_block{
+    a{
+      &:hover{
+        &:before{
+          background: $theme-color-default;
+        }
+      }
+    }
+  }
+}
+
+// off canvas menu
+#off-canvas-nav .offcanvas-mainnav{background-color: $theme-color-default;}

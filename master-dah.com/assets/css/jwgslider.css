@@ -1,0 +1,143 @@
+/*
+Default Style
+=========================== */
+.jwg_slider_module {
+   
+}
+.jwg_slider_module,
+.jwg_slider_module .arrow_navigation{
+	overflow:hidden;
+	position:relative;
+	width: 100%;
+}
+.jwg_slider_module .arrow_navigation {width: 100%;
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+	z-index: auto;
+}
+.jwg_slider_module .arrow_navigation > div {
+	position: relative;
+	z-index: 20; 
+	cursor: pointer;
+	top: 38%; 
+	left: auto;
+	float:left;
+} 
+.jwg_slider_module .arrow_navigation > div.right {
+	float:right;
+}
+
+/*
+Customize
+=========================== */
+.jwg_slider_module{
+    top: 3px;
+}
+
+.jwg_slider_module .tabbed_navigation {
+    display: table;
+    width: auto;
+}
+
+.jwg_slider_module .tabbed_navigation > ul {
+	margin:0;
+    padding: 0;
+    display: inline-block;
+}
+
+.jwg_slider_module .tabbed_navigation > ul:after {
+	content:"";
+	clear:both;	
+	display:block;
+}
+
+.jwg_slider_module .tabbed_navigation > ul li {
+	overflow:hidden;
+	position:relative;
+    float: left;
+	cursor:pointer;
+    display: block;
+	font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 -4px 0 0;
+    padding: 0 15px 0 15px;
+    color: #1c1c1c;
+}
+
+.jwg_slider_module .tabbed_navigation > ul li:first-child{
+    padding-left: 0;
+}
+
+.jwg_slider_module .tabbed_navigation > ul li:before{
+    content:"|";
+    position: absolute;
+    right: -3px;
+}
+
+.jwg_slider_module .tabbed_navigation > ul li:hover:before{
+    color: #1c1c1c;
+}
+
+.jwg_slider_module .tabbed_navigation > ul li.active:before{
+    color: #1c1c1c;
+}
+
+.jwg_slider_module .tabbed_navigation > ul li:last-child:before{
+    content:"";
+}
+
+.jwg_slider_module .slides {
+	width: 100%;
+	position: relative;
+    display: block;
+	top: 6px;
+	left: 0;
+	height:auto;
+    cursor: default;
+}
+
+.jwg_slider_module .slides > .slide {
+	float:left;
+	width:100%;
+	height:inherit;
+}
+
+/*
+Responsive
+=========================== */
+@media (max-width: 1024px) {
+    .jwg_slider_module .tabbed_navigation > ul li {
+        font-size: 18px;
+        margin: 0 -4px 0 0;
+        padding: 0 25px 0 23px;
+    }    
+}
+
+@media (max-width: 767px) {
+    .jwg_slider_module .tabbed_navigation{
+        width: 100%;
+        display: block;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    .jwg_slider_module .tabbed_navigation > ul{
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+    
+    .jwg_slider_module .tabbed_navigation > ul li {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        border-bottom: solid 1px #c1c1c1;
+    }   
+    
+    .jwg_slider_module .tabbed_navigation > ul li:before{
+        content:"";
+    }
+}

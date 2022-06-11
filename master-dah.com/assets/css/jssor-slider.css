@@ -1,0 +1,53 @@
+.slider2_container{
+    width: 1920px;
+    height: 950px;
+    position: relative;
+}
+
+.slides{
+    cursor: move; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    width: 1920px; 
+    height: 950px;
+    overflow: hidden;
+}
+
+.jssor-cap{
+    position:absolute;
+    color:#fff;
+}
+
+.jssor-img{
+	z-index:2;
+}
+
+.jssor-head{
+	font-size:90px;
+	line-height:140px;
+	font-weight:900;
+	text-transform:uppercase;
+	letter-spacing:3px;
+	z-index:2;
+}
+
+.jssor-trans{
+	width:860px;
+	opacity:0.2;
+	z-index:1;
+}
+
+.text-normal{
+	font-weight:400;
+}
+
+.jssor-btn{
+	z-index:2;
+}
+
+.jssor-btn .btn{
+	padding:20px 50px;
+	font-size:30px;
+	letter-spacing:0;
+}
